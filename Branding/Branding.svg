@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="800"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="branding.svg"
+   inkscape:export-filename="C:\Temp\SVNTemp\OCM\trunk\WebApps\App\images\AppSplashscreen480x800.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   style="display:inline;enable-background:new">
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4052"
+       is_visible="true" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3781">
+      <stop
+         style="stop-color:#ccffaa;stop-opacity:1;"
+         offset="0"
+         id="stop3783" />
+      <stop
+         style="stop-color:#ccffaa;stop-opacity:0;"
+         offset="1"
+         id="stop3785" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3781"
+       id="radialGradient3787"
+       cx="227.55171"
+       cy="33.812214"
+       fx="227.55171"
+       fy="33.812214"
+       r="182.59843"
+       gradientTransform="matrix(-4.2701836,5.8168973,-2.7196254,-2.0903118,1153.3815,-1220.4171)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       id="filter3818"
+       color-interpolation-filters="sRGB">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend3820" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4663"
+       x="-0.27567653"
+       width="1.5513531"
+       y="-0.2977987"
+       height="1.5955974">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="34.732003"
+         id="feGaussianBlur4665" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.25"
+     inkscape:cx="-198.37307"
+     inkscape:cy="678.54124"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="968"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-252.36221)"
+     style="display:inline;filter:url(#filter3818)">
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.10619471;fill:#8dd35f;fill-opacity:1;stroke:none;display:inline;filter:url(#filter4663);enable-background:new"
+       id="path3789-4"
+       sodipodi:cx="522.67126"
+       sodipodi:cy="198.71207"
+       sodipodi:rx="151.1859"
+       sodipodi:ry="139.95496"
+       d="m 673.85716,198.71207 c 0,77.29498 -67.68823,139.95495 -151.1859,139.95495 -83.49766,0 -151.18589,-62.65997 -151.18589,-139.95495 0,-77.29499 67.68823,-139.954959 151.18589,-139.954959 83.49767,0 151.1859,62.659969 151.1859,139.954959 z"
+       transform="matrix(0.80854141,0,0,0.16316795,-250.72636,586.05974)"
+       inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
+       inkscape:export-xdpi="39.415569"
+       inkscape:export-ydpi="39.415569" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#8dd35f;fill-opacity:1;stroke:none"
+       id="path3789"
+       sodipodi:cx="522.67126"
+       sodipodi:cy="198.71207"
+       sodipodi:rx="151.1859"
+       sodipodi:ry="139.95496"
+       d="m 673.85716,198.71207 c 0,77.29498 -67.68823,139.95495 -151.1859,139.95495 -83.49766,0 -151.18589,-62.65997 -151.18589,-139.95495 0,-77.29499 67.68823,-139.954959 151.18589,-139.954959 83.49767,0 151.1859,62.659969 151.1859,139.954959 z"
+       transform="translate(-349.02345,237.67557)"
+       inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
+       inkscape:export-xdpi="39.415569"
+       inkscape:export-ydpi="39.415569" />
+    <g
+       id="g3067"
+       transform="translate(1.1107536,19.993564)"
+       inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
+       inkscape:export-xdpi="39.415569"
+       inkscape:export-ydpi="39.415569">
+      <rect
+         inkscape:export-ydpi="23.85018"
+         inkscape:export-xdpi="23.85018"
+         inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
+         rx="3.8972495"
+         y="326.48282"
+         x="139.20227"
+         height="29.711729"
+         width="57.594841"
+         id="rect2985"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="23.85018"
+         inkscape:export-xdpi="23.85018"
+         inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
+         rx="5.1210079"
+         y="298.31702"
+         x="175.86395"
+         height="33.3638"
+         width="11.351988"
+         id="rect2987-1"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="23.85018"
+         inkscape:export-xdpi="23.85018"
+         inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
+         rx="5.1210079"
+         y="298.31705"
+         x="151.77745"
+         height="34.427631"
+         width="11.351988"
+         id="rect2987-1-7"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="23.85018"
+         inkscape:export-xdpi="23.85018"
+         inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
+         rx="5.1412234"
+         y="346.08652"
+         x="129.91159"
+         height="17.068363"
+         width="75.978706"
+         id="rect2985-4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+    </g>
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:10.27357101;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+       d="m 55.192574,527.63977 c 5.74948,-27.22455 13.582466,-135.81092 75.474386,-89.14708 60.01676,45.25004 21.26391,-56.44771 45.00971,-60.46179"
+       id="path4050"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
+       inkscape:export-xdpi="39.415569"
+       inkscape:export-ydpi="39.415569" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer"
+     transform="translate(0,-252.36221)"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#bcd35f;fill-opacity:1;stroke:none;font-family:Sans;stroke-opacity:1"
+       x="178.9771"
+       y="447.64398"
+       id="text3861"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="39.415569"
+       inkscape:export-ydpi="39.415569"
+       transform="scale(1.0075716,0.9924853)"
+       inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"><tspan
+         sodipodi:role="line"
+         id="tspan3863"
+         x="178.9771"
+         y="447.64398"
+         style="font-size:64px;fill:#bcd35f;fill-opacity:1;stroke:none;stroke-opacity:1"><tspan
+           style="font-size:64px;fill:#ffffff;stroke:none;stroke-opacity:1"
+           id="tspan3838">open</tspan><tspan
+           style="font-size:64px;fill:#80b3ff;stroke:none;stroke-opacity:1"
+           id="tspan2991">chargemap</tspan></tspan></text>
+    <rect
+       style="fill:#1a1a1a;fill-opacity:0;stroke:none"
+       id="rect3004"
+       width="377.10547"
+       height="309.62344"
+       x="404.89218"
+       y="317.50757"
+       rx="10.99696"
+       inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
+       inkscape:export-xdpi="39.415569"
+       inkscape:export-ydpi="39.415569" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="poweredby"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:70px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Sans"
+       x="317.73279"
+       y="379.26315"
+       id="text3861-1"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="13.504048"
+       inkscape:export-ydpi="13.504048"
+       transform="matrix(1.0075716,0,0,0.9924853,0,-252.36221)"
+       inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_sm.png"><tspan
+         sodipodi:role="line"
+         id="tspan3863-7"
+         x="317.73279"
+         y="379.26315"
+         style="font-size:64px;fill:#4d4d4d;fill-opacity:1">powered by</tspan></text>
+  </g>
+</svg>

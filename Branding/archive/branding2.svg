@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="800"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="branding2.svg"
+   inkscape:export-filename="C:\Temp\SVNTemp\OCM\trunk\WebApps\App\images\AppSplashscreen480x800.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   style="display:inline;enable-background:new">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4594">
+      <stop
+         style="stop-color:#8dd35f;stop-opacity:1;"
+         offset="0"
+         id="stop4596" />
+      <stop
+         style="stop-color:#8dd35f;stop-opacity:0;"
+         offset="1"
+         id="stop4598" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4052"
+       is_visible="true" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3781">
+      <stop
+         style="stop-color:#ccffaa;stop-opacity:1;"
+         offset="0"
+         id="stop3783" />
+      <stop
+         style="stop-color:#ccffaa;stop-opacity:0;"
+         offset="1"
+         id="stop3785" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3781"
+       id="radialGradient3787"
+       cx="227.55171"
+       cy="33.812214"
+       fx="227.55171"
+       fy="33.812214"
+       r="182.59843"
+       gradientTransform="matrix(-4.2701836,5.8168973,-2.7196254,-2.0903118,1153.3815,-1220.4171)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       id="filter3818"
+       color-interpolation-filters="sRGB">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend3820" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4594"
+       id="linearGradient4600"
+       x1="551.06378"
+       y1="463.00052"
+       x2="547.87231"
+       y2="571.51117"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       id="filter4663"
+       x="-0.27567653"
+       width="1.5513531"
+       y="-0.2977987"
+       height="1.5955974">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="34.732003"
+         id="feGaussianBlur4665" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.48"
+     inkscape:cx="452.2687"
+     inkscape:cy="688.20675"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="750"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-252.36221)"
+     style="display:inline;filter:url(#filter3818)">
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.10619471;fill:#8dd35f;fill-opacity:1;stroke:none;display:inline;filter:url(#filter4663);enable-background:new"
+       id="path3789-4"
+       sodipodi:cx="522.67126"
+       sodipodi:cy="198.71207"
+       sodipodi:rx="151.1859"
+       sodipodi:ry="139.95496"
+       d="m 673.85716,198.71207 a 151.1859,139.95496 0 1 1 -302.37179,0 151.1859,139.95496 0 1 1 302.37179,0 z"
+       transform="matrix(0.80854141,0,0,0.16316795,-250.72636,562.73392)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#8dd35f;fill-opacity:1;stroke:none"
+       id="path3789"
+       sodipodi:cx="522.67126"
+       sodipodi:cy="198.71207"
+       sodipodi:rx="151.1859"
+       sodipodi:ry="139.95496"
+       d="m 673.85716,198.71207 c 0,77.29498 -67.68823,139.95495 -151.1859,139.95495 -83.49766,0 -151.18589,-62.65997 -151.18589,-139.95495 0,-77.29499 67.68823,-139.954959 151.18589,-139.954959 83.49767,0 151.1859,62.659969 151.1859,139.954959 z"
+       transform="translate(-349.02345,214.34975)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect2985"
+       width="57.594841"
+       height="29.711729"
+       x="139.20227"
+       y="344.25488"
+       rx="3.8972495"
+       inkscape:export-filename="C:\Projects\Chris\Dropbox\Dropbox\Projects\OCM Related\Branding\text3861.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect2987-1"
+       width="11.351988"
+       height="33.3638"
+       x="175.86395"
+       y="316.08908"
+       rx="5.1210079"
+       inkscape:export-filename="C:\Projects\Chris\Dropbox\Dropbox\Projects\OCM Related\Branding\text3861.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect2987-1-7"
+       width="11.351988"
+       height="34.427631"
+       x="151.77745"
+       y="316.08911"
+       rx="5.1210079"
+       inkscape:export-filename="C:\Projects\Chris\Dropbox\Dropbox\Projects\OCM Related\Branding\text3861.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect2985-4"
+       width="75.978706"
+       height="17.068363"
+       x="129.91159"
+       y="363.85858"
+       rx="5.1412234"
+       inkscape:export-filename="C:\Projects\Chris\Dropbox\Dropbox\Projects\OCM Related\Branding\text3861.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 39.361702,495.97923 c 21.008994,7.36146 44.501888,7.41323 65.543128,0.14444 21.04123,-7.26879 39.49276,-21.81045 51.47814,-40.56997 14.51903,-22.72517 19.24625,-51.48246 12.76596,-77.65958"
+       id="path4050"
+       inkscape:path-effect="#path-effect4052"
+       inkscape:original-d="M 39.361702,495.97923 C 64.893613,538.53242 235.99496,458.50229 156.38297,455.5537 110.37363,453.84965 147.81959,338.49107 169.14893,377.89412"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer"
+     transform="translate(0,-252.36221)"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#bcd35f;fill-opacity:1;stroke:none;font-family:Sans"
+       x="178.9771"
+       y="424.14154"
+       id="text3861"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(1.0075716,0.9924853)"><tspan
+         sodipodi:role="line"
+         id="tspan3863"
+         x="178.9771"
+         y="424.14154"
+         style="font-size:64px;fill:#bcd35f;fill-opacity:1"><tspan
+           style="font-size:64px;fill:#ffffff"
+           id="tspan3838">open</tspan><tspan
+           style="font-size:64px;fill:#80b3ff"
+           id="tspan2991">chargemap</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#8dd35f;fill-opacity:1;stroke:none;font-family:Sans"
+       x="424.32489"
+       y="455.61459"
+       id="text2999"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="424.32489"
+         y="455.61459"
+         id="tspan4584">the <tspan
+   style="fill:#0088aa"
+   id="tspan4649">global</tspan> registry of </tspan><tspan
+         sodipodi:role="line"
+         x="424.32489"
+         y="485.61459"
+         id="tspan4602">electric vehicle charging locations</tspan></text>
+    <rect
+       style="fill:#1a1a1a;fill-opacity:0;stroke:none"
+       id="rect3004"
+       width="377.10547"
+       height="309.62344"
+       x="404.89218"
+       y="41.819519"
+       transform="translate(0,252.36221)"
+       rx="10.99696" />
+  </g>
+</svg>
