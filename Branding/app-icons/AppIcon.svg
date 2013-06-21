@@ -14,7 +14,7 @@
    height="200"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="AppIcon.svg"
    inkscape:export-filename="C:\Temp\SVN\openchargemap\trunk\Applications\App\images\icons\AppIcon_512x512_flat.png"
    inkscape:export-xdpi="230.39999"
@@ -52,8 +52,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6421381"
-     inkscape:cx="93.097648"
+     inkscape:zoom="1.2432572"
+     inkscape:cx="-32.379203"
      inkscape:cy="61.480587"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -71,7 +71,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -107,96 +107,17 @@
      style="display:inline">
     <path
        sodipodi:type="arc"
-       style="fill:#8dd35f;fill-opacity:1;stroke:none;display:inline;filter:url(#filter3818);enable-background:new"
+       style="fill:#8cc63f;fill-opacity:1;stroke:none;display:inline;filter:url(#filter3818);enable-background:new"
        id="path3789"
        sodipodi:cx="522.67126"
        sodipodi:cy="198.71207"
        sodipodi:rx="151.1859"
        sodipodi:ry="139.95496"
-       d="m 673.85716,198.71207 c 0,77.29498 -67.68823,139.95495 -151.1859,139.95495 -83.49766,0 -151.18589,-62.65997 -151.18589,-139.95495 0,-77.29499 67.68823,-139.954959 151.18589,-139.954959 83.49767,0 151.1859,62.659969 151.1859,139.954959 z"
-       transform="matrix(0.63630868,0,0,0.63630868,-233.05562,819.73062)"
+       d="m 673.85716,198.71207 a 151.1859,139.95496 0 1 1 -302.37179,0 151.1859,139.95496 0 1 1 302.37179,0 z"
+       transform="matrix(0.63497986,0,0,0.68593498,-232.56198,816.32105)"
        inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
        inkscape:export-xdpi="39.415569"
        inkscape:export-ydpi="39.415569" />
-    <g
-       style="display:inline;filter:url(#filter3818);enable-background:new"
-       id="g3067"
-       transform="matrix(0.63630868,0,0,0.63630868,-10.262184,681.21767)"
-       inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
-       inkscape:export-xdpi="39.415569"
-       inkscape:export-ydpi="39.415569">
-      <rect
-         inkscape:export-ydpi="23.85018"
-         inkscape:export-xdpi="23.85018"
-         inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
-         rx="3.8972495"
-         y="326.48282"
-         x="139.20227"
-         height="29.711729"
-         width="57.594841"
-         id="rect2985"
-         style="fill:#ffffff;fill-opacity:1;stroke:none" />
-      <rect
-         inkscape:export-ydpi="23.85018"
-         inkscape:export-xdpi="23.85018"
-         inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
-         rx="5.1210079"
-         y="298.31702"
-         x="175.86395"
-         height="33.3638"
-         width="11.351988"
-         id="rect2987-1"
-         style="fill:#ffffff;fill-opacity:1;stroke:none" />
-      <rect
-         inkscape:export-ydpi="23.85018"
-         inkscape:export-xdpi="23.85018"
-         inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
-         rx="5.1210079"
-         y="298.31705"
-         x="151.77745"
-         height="34.427631"
-         width="11.351988"
-         id="rect2987-1-7"
-         style="fill:#ffffff;fill-opacity:1;stroke:none" />
-      <rect
-         inkscape:export-ydpi="23.85018"
-         inkscape:export-xdpi="23.85018"
-         inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
-         rx="5.1412234"
-         y="346.08652"
-         x="129.91159"
-         height="17.068363"
-         width="75.978706"
-         id="rect2985-4"
-         style="fill:#ffffff;fill-opacity:1;stroke:none" />
-    </g>
-    <path
-       style="fill:none;stroke:#ffffff;stroke-width:6.53700018;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter3818);enable-background:new"
-       d="m 24.745185,997.03018 c 21.797319,-15.39446 8.048006,-79.21049 47.430371,-49.51788 38.189184,28.79304 13.530411,-35.91817 28.640064,-38.47236"
-       id="path4050"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc"
-       inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
-       inkscape:export-xdpi="39.415569"
-       inkscape:export-ydpi="39.415569" />
-    <text
-       xml:space="preserve"
-       style="font-size:45.81422806px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#bcd35f;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Sans"
-       x="91.088326"
-       y="1000.715"
-       id="text3861"
-       sodipodi:linespacing="125%"
-       inkscape:export-xdpi="39.415569"
-       inkscape:export-ydpi="39.415569"
-       transform="scale(1.0075716,0.9924853)"
-       inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"><tspan
-         sodipodi:role="line"
-         id="tspan3863"
-         x="91.088326"
-         y="1000.715"
-         style="font-size:40.72375488px;fill:#bcd35f;fill-opacity:1;stroke:none"><tspan
-           style="font-size:40.72375488px;fill:#ffffff;stroke:none"
-           id="tspan3838">ocm</tspan></tspan></text>
     <rect
        style="fill:#1a1a1a;fill-opacity:0;stroke:none;display:inline;enable-background:new"
        id="rect3004"
@@ -208,5 +129,34 @@
        inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
        inkscape:export-xdpi="39.415569"
        inkscape:export-ydpi="39.415569" />
+    <g
+       id="g3005"
+       transform="matrix(0.70535069,0,0,0.70535069,25.657395,885.73307)">
+      <path
+         id="path3007"
+         d="m 147.25985,2.3031495 0,42.9094475 -16.15749,0 0,-42.9094475 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3009"
+         d="m 173.23229,11.763779 0,8.255906 -23.31496,0 0,-8.255906 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3011"
+         d="m 138.18898,0 0,47.409448 -11.97638,0 0,-47.409448 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3013"
+         d="m 172.98426,29.09055 0,8.255906 -23.27953,0 0,-8.255906 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3015"
+         d="m 140.59843,149.56299 c 21.9685,-76.322834 50.17323,20.48031 56.44488,-4.11024 6.83858,-26.82283 -23.56299,-32.66929 -4.57087,-46.169288 35.00788,-24.874015 -49.25197,-17.114173 -65.40945,-15.874015 -16.19291,1.27559 -33.094484,4.641732 -48.9685,9.212598 C 14.598425,111.04724 -27.035434,147.3307 35.149607,149.03149 230.49213,154.48819 14.102362,38.728345 127.41733,24.342519"
+         style="fill:none;stroke:#ffffff;stroke-width:8.96456718px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
 </svg>

@@ -14,8 +14,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="AppSplashscreen480x800.svg"
-   inkscape:export-filename="C:\Temp\builds\com.webprofusion.openchargemap\res\drawable\splash.png"
+   sodipodi:docname="C:\Temp\GIT\projects\ocm-docs\Branding\splashscreens\AppSplashscreen480x800.svg"
+   inkscape:export-filename="C:\Temp\SVNTemp\OCM\trunk\WebApps\App\images\AppSplashscreen480x800.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -41,9 +41,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.42426407"
-     inkscape:cx="294.55446"
-     inkscape:cy="625.30569"
+     inkscape:zoom="0.4"
+     inkscape:cx="179.27877"
+     inkscape:cy="502.28349"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -57,18 +57,6 @@
     <inkscape:grid
        type="xygrid"
        id="grid3809" />
-    <sodipodi:guide
-       orientation="1,0"
-       position="-1165,222.5"
-       id="guide3006" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="-195.83333,514.58333"
-       id="guide3008" />
-    <sodipodi:guide
-       orientation="1,0"
-       position="423.94595,1245.6389"
-       id="guide3854" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -88,13 +76,19 @@
      inkscape:label="Background"
      style="display:inline" />
   <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-252.36221)"
+     style="display:inline" />
+  <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer"
      transform="translate(0,-252.36221)"
      style="display:inline">
     <rect
-       style="fill:#8cc63f;fill-opacity:1;stroke:none"
+       style="fill:#8dd35f;fill-opacity:1;stroke:none"
        id="rect3012"
        width="483.33334"
        height="807.14288"
@@ -103,32 +97,32 @@
     <text
        xml:space="preserve"
        style="font-size:31.46332741px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-       x="420"
-       y="712.36218"
+       x="448.55777"
+       y="907.66754"
        id="text2999"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan3846"
-         x="420"
-         y="712.36218"
-         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Oswald;-inkscape-font-specification:Oswald Light">the global registry of electric</tspan><tspan
+         id="tspan3001"
+         x="457.28391"
+         y="907.66754"
+         style="text-align:end;text-anchor:end;fill:#ffffff;font-size:32px">the global electric vehicle </tspan><tspan
          sodipodi:role="line"
-         x="420"
-         y="752.36218"
-         id="tspan3848"
-         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Oswald;-inkscape-font-specification:Oswald Light">vehicle charging locations</tspan></text>
+         x="448.55777"
+         y="946.9967"
+         id="tspan3003"
+         style="text-align:end;text-anchor:end;fill:#ffffff;font-size:32px">charging database</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:18.87799644px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ccff00;fill-opacity:1;stroke:none;font-family:Sans"
-       x="308.7861"
-       y="865.78577"
+       x="305.58688"
+       y="1001.9667"
        id="text2999-1"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="308.7861"
-         y="865.78577"
+         x="305.58688"
+         y="1001.9667"
          id="tspan3003-4"
-         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Oswald;-inkscape-font-specification:Oswald Light">openchargemap.org</tspan></text>
+         style="font-size:32px">openchargemap.org</tspan></text>
     <path
        sodipodi:type="arc"
        style="opacity:0.10619471;fill:#8dd35f;fill-opacity:1;stroke:none;display:inline;filter:url(#filter4663);enable-background:new"
@@ -137,15 +131,28 @@
        sodipodi:cy="198.71207"
        sodipodi:rx="151.1859"
        sodipodi:ry="139.95496"
-       d="m 673.85716,198.71207 a 151.1859,139.95496 0 1 1 -302.37179,0 151.1859,139.95496 0 1 1 302.37179,0 z"
-       transform="matrix(0.47363541,0,0,0.09558215,-101.2423,534.68201)"
+       d="m 673.85716,198.71207 c 0,77.29498 -67.68823,139.95495 -151.1859,139.95495 -83.49766,0 -151.18589,-62.65997 -151.18589,-139.95495 0,-77.29499 67.68823,-139.954959 151.18589,-139.954959 83.49767,0 151.1859,62.659969 151.1859,139.954959 z"
+       transform="matrix(0.47363541,0,0,0.09558215,-97.29635,535.1049)"
+       inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
+       inkscape:export-xdpi="39.415569"
+       inkscape:export-ydpi="39.415569" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#8dd35f;fill-opacity:1;stroke:none;display:inline;filter:url(#filter3818);enable-background:new"
+       id="path3789"
+       sodipodi:cx="522.67126"
+       sodipodi:cy="198.71207"
+       sodipodi:rx="151.1859"
+       sodipodi:ry="139.95496"
+       d="m 673.85716,198.71207 c 0,77.29498 -67.68823,139.95495 -151.1859,139.95495 -83.49766,0 -151.18589,-62.65997 -151.18589,-139.95495 0,-77.29499 67.68823,-139.954959 151.18589,-139.954959 83.49767,0 151.1859,62.659969 151.1859,139.954959 z"
+       transform="matrix(0.58578994,0,0,0.58578994,-154.8778,331.02498)"
        inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
        inkscape:export-xdpi="39.415569"
        inkscape:export-ydpi="39.415569" />
     <g
        style="display:inline;filter:url(#filter3818);enable-background:new"
        id="g3067"
-       transform="matrix(0,0.62399433,-0.70282948,0,526.95254,299.2315)"
+       transform="matrix(1.6050774,0,0,1.6050774,-36.013191,-201.84046)"
        inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
        inkscape:export-xdpi="39.415569"
        inkscape:export-ydpi="39.415569">
@@ -153,64 +160,61 @@
          inkscape:export-ydpi="23.85018"
          inkscape:export-xdpi="23.85018"
          inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
-         rx="0"
-         y="333.18683"
-         x="133.6156"
-         height="23.00773"
-         width="68.76815"
+         rx="3.8972495"
+         y="326.48282"
+         x="139.20227"
+         height="29.711729"
+         width="57.594841"
          id="rect2985"
-         style="fill:#ffffff;fill-opacity:1;stroke:none"
-         ry="0" />
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
       <rect
          inkscape:export-ydpi="23.85018"
          inkscape:export-xdpi="23.85018"
          inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
-         rx="2.5294065"
-         y="296.22369"
-         x="148.77216"
-         height="33.16901"
-         width="13.239948"
+         rx="5.1210079"
+         y="298.31702"
+         x="175.86395"
+         height="33.3638"
+         width="11.351988"
+         id="rect2987-1"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="23.85018"
+         inkscape:export-xdpi="23.85018"
+         inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
+         rx="5.1210079"
+         y="298.31705"
+         x="151.77745"
+         height="34.427631"
+         width="11.351988"
          id="rect2987-1-7"
-         style="fill:#ffffff;fill-opacity:1;stroke:none"
-         ry="0" />
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
       <rect
          inkscape:export-ydpi="23.85018"
          inkscape:export-xdpi="23.85018"
          inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
-         rx="0"
+         rx="5.1412234"
          y="346.08652"
          x="129.91159"
          height="17.068363"
          width="75.978706"
          id="rect2985-4"
          style="fill:#ffffff;fill-opacity:1;stroke:none" />
-      <rect
-         ry="0"
-         style="fill:#ffffff;fill-opacity:1;stroke:none"
-         id="rect3876"
-         width="13.239948"
-         height="33.16901"
-         x="176.50909"
-         y="296.5657"
-         rx="2.5294065"
-         inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
-         inkscape:export-xdpi="23.85018"
-         inkscape:export-ydpi="23.85018" />
     </g>
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:9;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter3818);enable-background:new"
-       d="m 286.11722,529.83817 c 21.97039,-76.29236 50.17064,20.4923 56.43915,-4.10299 6.83198,-26.80612 -23.56264,-32.65182 -4.57136,-46.14515 35.02524,-24.88549 -49.25072,-17.13388 -65.41862,-15.87528 -16.16791,1.25859 -33.09892,4.61846 -48.9712,9.21661 -63.48913,18.3926 -105.09985,54.67511 -42.91752,56.40585 195.33992,5.43696 -21.06195,-110.32206 92.27056,-124.68814"
+       style="fill:none;stroke:#ffffff;stroke-width:16.48987579;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;display:inline;filter:url(#filter3818);enable-background:new"
+       d="M -9.7416079,623.61482 C -0.5132356,579.91748 19.87265,399.37734 119.21396,474.27632 c 96.3315,72.62997 111.01438,-47.76757 117.27618,-102.53769"
        id="path4050"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csssssc"
+       sodipodi:nodetypes="csc"
        inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
        inkscape:export-xdpi="39.415569"
        inkscape:export-ydpi="39.415569" />
     <text
        xml:space="preserve"
-       style="font-size:117.81787109px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Oswald;-inkscape-font-specification:Oswald Light"
-       x="78.457748"
-       y="654.99811"
+       style="font-size:137.45417786px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Sans"
+       x="65.696686"
+       y="670.02277"
        id="text3861-1"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="39.415569"
@@ -219,25 +223,25 @@
        inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"><tspan
          sodipodi:role="line"
          id="tspan3863-7"
-         x="78.457748"
-         y="654.99811"
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Oswald;-inkscape-font-specification:Oswald Light">Open</tspan></text>
+         x="65.696686"
+         y="670.02277"
+         style="font-size:117.81787109px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans">open</tspan></text>
     <rect
        style="fill:#1a1a1a;fill-opacity:0;stroke:none;display:inline;enable-background:new"
        id="rect3004"
        width="220.90457"
        height="181.3743"
-       x="307.81506"
-       y="394.55609"
+       x="311.76102"
+       y="394.97897"
        rx="6.4419084"
        inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
        inkscape:export-xdpi="39.415569"
        inkscape:export-ydpi="39.415569" />
     <text
        xml:space="preserve"
-       style="font-size:48px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Sans"
-       x="192.27673"
-       y="654.99811"
+       style="font-size:48px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ccff00;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Sans"
+       x="163.80568"
+       y="718.17511"
        id="text3861-1-1"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="39.415569"
@@ -246,14 +250,8 @@
        inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"><tspan
          sodipodi:role="line"
          id="tspan3863-7-7"
-         x="192.27673"
-         y="654.99811"
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Oswald;-inkscape-font-specification:Oswald Light">Charge Map</tspan></text>
+         x="163.80568"
+         y="718.17511"
+         style="font-size:56px;fill:#ccff00;fill-opacity:1;stroke:none">charge map</tspan></text>
   </g>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-252.36221)"
-     style="display:inline" />
 </svg>
