@@ -1,0 +1,3 @@
+Script File Per Object
+Script 'Use Database': false
+Script Descriptive Headers : false
