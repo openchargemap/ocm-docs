@@ -1,0 +1,322 @@
+X-Account-Key: account2
+X-UIDL: 0LfCMW-1Re2lL0pKK-00olzB
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <geral@sgorme.com>
+Delivery-Date: Thu, 18 Aug 2011 12:12:07 +0200
+Received: from hosting31.serverhs.org (hosting31.serverhs.org [82.102.6.223])
+	by mx.kundenserver.de (node=mxeu2) with ESMTP (Nemesis)
+	id 0LfCMW-1Re2lL0pKK-00olzB for christopher.cook@webprofusion.com; Thu, 18 Aug 2011 12:12:07 +0200
+Received: from bl9-150-81.dsl.telepac.pt ([85.242.150.81] helo=[192.168.1.67])
+	by hosting31.serverhs.org with esmtpsa (TLSv1:AES256-SHA:256)
+	(Exim 4.69)
+	(envelope-from <geral@sgorme.com>)
+	id 1QtzZz-0001vw-Em; Thu, 18 Aug 2011 11:12:03 +0100
+Message-ID: <4E4CE571.7080908@sgorme.com>
+Date: Thu, 18 Aug 2011 11:12:01 +0100
+From: =?UTF-8?B?U29jaWVkYWRlIEdlc3RvcmEgZGEgUmVkZSBkZSBNb2JpbGlkYWRlIEVsw6k=?=
+ =?UTF-8?B?Y3RyaWNh?= <geral@sgorme.com>
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20110624 Thunderbird/5.0
+MIME-Version: 1.0
+To: christopher.cook@webprofusion.com
+CC: =?UTF-8?B?U29jaWVkYWRlIEdlc3RvcmEgZGUgT3BlcmHDp8O1ZXMgZGEgUmVkZSBkZSBN?=
+ =?UTF-8?B?b2JpbGlkYWRlIEVsw6ljdHJpY2EgLSBTR09STUU=?= <mobie@sgorme.com>
+Subject: Re: Fwd: Export of Charging Location Data for OpenChargeMap?
+References: <54a42ec153b990a8d03220490042b709@sgorme.com>
+In-Reply-To: <54a42ec153b990a8d03220490042b709@sgorme.com>
+Content-Type: multipart/alternative;
+ boundary="------------020102080305080407050607"
+X-antispam-MailScanner-Information: Please contact the ISP for more information
+X-antispam-MailScanner-ID: 1QtzZz-0001vw-Em
+X-antispam-MailScanner: Found to be clean
+X-antispam-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-0.926, required 5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	DEAR_SOMETHING 1.97, HTML_MESSAGE 0.00)
+X-antispam-MailScanner-From: geral@sgorme.com
+X-Spam-Status: No
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - hosting31.serverhs.org
+X-AntiAbuse: Original Domain - webprofusion.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - sgorme.com
+X-UI-Junk: AutoMaybeJunk -52 (BAY);
+  V01:Awa6CTMs:bEFnM66azUZpM4aC6SiteIanBrRZ9LXpn6kI62pnB3aPM+rX+/g
+  ukjohEVCqQfptAcu05SD2pcExrnedldYIye6EQNB1K0BBN5vuSv6dr0avC+Bwzza
+  8+bBhG4bcQpxftE2Qhm6yOSP0fVQqV/nkgqLsmhTDQM1PJdC1LzsWOIUH47AiTOv
+  FLG9RO3hHIwOEpFPi7RUaEV+C9Nf8gfM9Dlw9nNjtP29pIudtOGzOTTgq2Wx28WI
+  r5X006mX6548GVEXVXqWFwi69RFHhj3x4VuJWsfVxgM2yd1+qLE26837d3JYG262
+  /SeqLFFyRxst6UTmhllfkv9LMg3Lpx2bLbQ==
+Envelope-To: christopher.cook@webprofusion.com
+
+This is a multi-part message in MIME format.
+--------------020102080305080407050607
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Dear Sir,
+
+Thank you for your contact.
+
+The information that is availabe on the website is public, you can use  it.
+Real-time information on the charging network is a webservice provided 
+by us. However we have still not established the conditions in which we 
+supply it.
+Please come back to us in a few months time for an update on the situation
+
+Kind regards,
+
+Rui Marques
+
+*Sociedade Gestora de Operações da Rede de Mobilidade Eléctrica – SGORME*
+
+Rua Camilo castelo Branco nº43
+
+1069-226 Lisboa, Portugal
+
+T.(+351) 21 001 89 03
+
+F.(+351) 21 001 89 90
+
+Número de Apoio à rede de Mobilidade Eléctrica – 800 916 624
+
+www.mobie.pt <http://www.mobie.pt>
+
+mobie@mobie.pt / mobie@sgorme.com <mailto:mobie@sgorme.com>
+
+Apartado 012023
+
+EC Picoas - Lisboa
+
+1061-001 Lisboa
+
+Portugal
+
+
+Em 03-08-2011 12:40, Sociedade Gestora de Operações da Rede de 
+Mobilidade Eléctrica - SGORME escreveu:
+>
+> -------- Original Message --------
+>
+> Subject: 	Export of Charging Location Data for OpenChargeMap?
+> Date: 	Wed, 3 Aug 2011 11:42:16 +0100 (BST)
+> From: 	Christopher Cook <christopher.cook@webprofusion.com>
+> To: 	mobie@mobie.pt
+>
+> Hi, I represent the openchargemap.org project which is open database 
+> of charge point location globally. Our database is used by several 
+> websites and mobile applications to provide charge point location 
+> information.
+>
+> We would like to be able to take a regular data feed of your charge 
+> point locations and ideally their live status (availability). Would it 
+> be acceptable to you for us to pull the data from your website and if 
+> so do you have any preferred existing way for us to gather this data? 
+> There is no effort required by yourselves, we would just like to get 
+> permission before importing the information.
+>
+>
+> Best Regards,
+> Christopher Cook
+>
+> http://openchargemap.org
+>
+> http://www.webprofusion.com
+>
+> -- 
+>
+> *Sociedade Gestora de Operações da Rede de Mobilidade Eléctrica – SGORME*
+>
+> Número de Apoio à rede de Mobilidade Eléctrica – *800 916 624*
+>
+> www.mobie.pt <http://www.mobie.pt/>
+>
+> mobie@mobie.pt / mobie@sgorme.com <mailto:mobie@sgorme.com>
+>
+> Apartado 012023
+>
+> EC Picoas - Lisboa
+>
+> 1061-001 Lisboa
+>
+> Portugal
+>
+
+--------------020102080305080407050607
+Content-Type: multipart/related;
+ boundary="------------080601080409080501080903"
+
+
+--------------080601080409080501080903
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <font size="-1"><font face="Arial">Dear Sir,<br>
+        <br>
+        Thank you for your contact.<br>
+        <br>
+        The information that is availabe on the website is public, you
+        can use  it.<br>
+        Real-time information on the charging network is a webservice
+        provided by us. However we have still not established the
+        conditions in which we supply it.<br>
+        Please come back to us in a few months time for an update on the
+        situation<br>
+        <br>
+        Kind regards,<br>
+        <br>
+        Rui Marques<br>
+        <br>
+      </font></font>
+    <div class="moz-signature">
+      <p><strong>Sociedade Gestora de Operações da Rede de Mobilidade
+          Eléctrica – SGORME</strong></p>
+      <p>Rua Camilo castelo Branco nº43</p>
+      <p>1069-226 Lisboa, Portugal</p>
+      <p>T.(+351) 21 001 89 03</p>
+      <p>F.(+351) 21 001 89 90</p>
+      <p>Número de Apoio à rede de Mobilidade Eléctrica – 800 916 624</p>
+      <p><a href="http://www.mobie.pt">www.mobie.pt</a></p>
+      <p><a href="mailto:mobie@sgorme.com">mobie@mobie.pt /
+          mobie@sgorme.com</a></p>
+      <p>Apartado 012023</p>
+      <p>EC Picoas - Lisboa</p>
+      <p>1061-001 Lisboa</p>
+      <p>Portugal</p>
+      <p><img src="cid:part1.05070609.03050806@sgorme.com" alt=""></p>
+    </div>
+    <br>
+    Em 03-08-2011 12:40, Sociedade Gestora de Operações da Rede de
+    Mobilidade Eléctrica - SGORME escreveu:
+    <blockquote cite="mid:54a42ec153b990a8d03220490042b709@sgorme.com"
+      type="cite">
+      <p> </p>
+      <p>-------- Original Message --------</p>
+      <table border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+          <tr>
+            <th align="right" nowrap="nowrap" valign="baseline">Subject:</th>
+            <td>Export of Charging Location Data for OpenChargeMap?</td>
+          </tr>
+          <tr>
+            <th align="right" nowrap="nowrap" valign="baseline">Date:</th>
+            <td>Wed, 3 Aug 2011 11:42:16 +0100 (BST)</td>
+          </tr>
+          <tr>
+            <th align="right" nowrap="nowrap" valign="baseline">From:</th>
+            <td>Christopher Cook
+              <a class="moz-txt-link-rfc2396E" href="mailto:christopher.cook@webprofusion.com">&lt;christopher.cook@webprofusion.com&gt;</a></td>
+          </tr>
+          <tr>
+            <th align="right" nowrap="nowrap" valign="baseline">To:</th>
+            <td><a class="moz-txt-link-abbreviated" href="mailto:mobie@mobie.pt">mobie@mobie.pt</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <p> </p>
+      <!-- html ignored --><!-- head ignored --><!-- meta ignored -->
+      <p style="margin: 0;"> </p>
+      <p style="margin: 0px;">Hi, I represent the openchargemap.org
+        project which is open database of charge point location
+        globally. Our database is used by several websites and mobile
+        applications to provide charge point location information.</p>
+      <p style="margin: 0px;"> </p>
+      <p style="margin: 0px;">We would like to be able to take a regular
+        data feed of your charge point locations and ideally their live
+        status (availability). Would it be acceptable to you for us to
+        pull the data from your website and if so do you have any
+        preferred existing way for us to gather this data? There is no
+        effort required by yourselves, we would just like to get
+        permission before importing the information.</p>
+      <p style="margin: 0px;"><br>
+        Best Regards, <br>
+        Christopher Cook</p>
+      <p style="margin: 0px;"><a class="moz-txt-link-freetext" href="http://openchargemap.org">http://openchargemap.org</a></p>
+      <p style="margin: 0px;"><a class="moz-txt-link-freetext" href="http://www.webprofusion.com">http://www.webprofusion.com</a></p>
+      <p> </p>
+      <div>-- <br>
+        <p><strong>Sociedade Gestora de Operações da Rede de Mobilidade
+            Eléctrica – SGORME</strong></p>
+        <p>Número de Apoio à rede de Mobilidade Eléctrica – <strong>800
+            916 624</strong></p>
+        <p><a moz-do-not-send="true" href="http://www.mobie.pt/">www.mobie.pt</a></p>
+        <p><a moz-do-not-send="true" href="mailto:mobie@sgorme.com">mobie@mobie.pt
+            / mobie@sgorme.com</a></p>
+        <p>Apartado 012023</p>
+        <p>EC Picoas - Lisboa</p>
+        <p>1061-001 Lisboa</p>
+        <p>Portugal</p>
+        <p><img moz-do-not-send="true"
+src="http://www.mobie.pt/Content_Light_1-2_70-30-theme/images/mobie/logo.gif"
+            alt=""></p>
+      </div>
+    </blockquote>
+  </body>
+</html>
+
+--------------080601080409080501080903
+Content-Type: image/gif;
+ name="logo.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <part1.05070609.03050806@sgorme.com>
+Content-Disposition: inline;
+ filename="logo.gif"
+
+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
+
+--------------080601080409080501080903--
+
+--------------020102080305080407050607--
+

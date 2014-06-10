@@ -15,3 +15,15 @@ select count(1) as NumUsers,YEAR(datecreated) as YearNum, MONTH(datecreated) as 
 from [User] u
 GROUP BY YEAR(datecreated), MONTH(datecreated)
 ORDER BY YearNum,MonthNum
+
+--num new comments per month
+select count(1) as NumComments,YEAR(datecreated) as YearNum, MONTH(datecreated) as MonthNum 
+from [UserComment] u
+GROUP BY YEAR(datecreated), MONTH(datecreated)
+ORDER BY YearNum,MonthNum
+
+--num new media per month
+select count(1) as NumPhotos,YEAR(datecreated) as YearNum, MONTH(datecreated) as MonthNum 
+from MediaItem u
+GROUP BY YEAR(datecreated), MONTH(datecreated)
+ORDER BY YearNum,MonthNum
