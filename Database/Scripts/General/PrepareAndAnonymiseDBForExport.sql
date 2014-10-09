@@ -3,10 +3,19 @@ DECLARE @DBName nvarchar(100)='OCM_Clone'
 
 TRUNCATE TABLE AuditLog
 TRUNCATE TABLE EditQueueItem
+TRUNCATE TABLE UserSubscription
+TRUNCATE TABLE UserChargingRequest
+TRUNCATE TABLE [RegisteredApplication]
 
-UPDATE [User] SET Identifier=SUBSTRING(HASHBYTES('SHA1', Identifier),0,16), Username=SUBSTRING(HASHBYTES('SHA1', Username),0,16), CurrentSessionToken='****Anon****', DateLastLogin=NULL,EmailAddress='anon@openchargemap.org', Location=NULL, APIKey=NULL, Latitude=NULL, Longitude=NULL
+--UPDATE [User] SET Identifier=SUBSTRING(HASHBYTES('SHA1', Identifier),0,16), Username=SUBSTRING(HASHBYTES('SHA1', Username),0,16), CurrentSessionToken='****Anon****', DateLastLogin=NULL,EmailAddress='anon@openchargemap.org', Location=NULL, APIKey=NULL, Latitude=NULL, Longitude=NULL
+UPDATE UserComment SET UserName = [User].Username FROM [User] WHERE UserComment.UserID=[User].ID
+UPDATE UserComment Set UserName='A.N. Otheruser' WHERE UserID IS NULL
 
 CHECKPOINT
+
+DBCC SHRINKDATABASE(@DBName )
+
+ALTER DATABASE [OCM_Clone] SET RECOVERY SIMPLE WITH NO_WAIT
 
 DBCC SHRINKDATABASE(@DBName )
 
