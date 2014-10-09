@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="200"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="AppIconSquare.svg"
+   inkscape:export-filename="C:\Temp\GIT\ocm-docs\Branding\build-output\app-icons\AppIcon_Square_1024x1024.png"
+   inkscape:export-xdpi="460.79999"
+   inkscape:export-ydpi="460.79999">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3014">
+      <stop
+         style="stop-color:#bcd35f;stop-opacity:1;"
+         offset="0"
+         id="stop3016" />
+      <stop
+         style="stop-color:#bcd35f;stop-opacity:0"
+         offset="1"
+         id="stop3018" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3014"
+       id="radialGradient3012"
+       cx="134.39412"
+       cy="80.538078"
+       fx="134.39412"
+       fy="80.538078"
+       r="79.5"
+       gradientTransform="matrix(0.72670238,0.80223936,-0.74636906,0.67609364,59.446615,-54.267519)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#8cc63f"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.2432572"
+     inkscape:cx="-157.85606"
+     inkscape:cy="61.480587"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="708"
+     inkscape:window-height="423"
+     inkscape:window-x="127"
+     inkscape:window-y="106"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Background"
+     style="display:none">
+    <rect
+       style="opacity:0.5;fill:#22241c"
+       id="rect3945"
+       width="202"
+       height="200"
+       x="-1"
+       y="-1"
+       rx="6.9974608" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer#1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer"
+     transform="translate(0,-852.36221)"
+     style="display:inline" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-852.36221)"
+     style="display:inline">
+    <path
+       sodipodi:type="arc"
+       style="fill:#8cc63f;fill-opacity:1;stroke:none;display:inline;filter:url(#filter3818);enable-background:new"
+       id="path3789"
+       sodipodi:cx="522.67126"
+       sodipodi:cy="198.71207"
+       sodipodi:rx="151.1859"
+       sodipodi:ry="139.95496"
+       d="m 673.85716,198.71207 c 0,77.29498 -67.68823,139.95495 -151.1859,139.95495 -83.49766,0 -151.18589,-62.65997 -151.18589,-139.95495 0,-77.29499 67.68823,-139.954959 151.18589,-139.954959 83.49767,0 151.1859,62.659969 151.1859,139.954959 z"
+       transform="matrix(0.63497986,0,0,0.68593498,-232.56198,816.32105)"
+       inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
+       inkscape:export-xdpi="39.415569"
+       inkscape:export-ydpi="39.415569" />
+    <rect
+       style="fill:#1a1a1a;fill-opacity:0;stroke:none;display:inline;enable-background:new"
+       id="rect3004"
+       width="239.95547"
+       height="197.01608"
+       x="245.05876"
+       y="870.52844"
+       rx="6.9974608"
+       inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
+       inkscape:export-xdpi="39.415569"
+       inkscape:export-ydpi="39.415569" />
+    <g
+       id="g3005"
+       transform="matrix(0.70535069,0,0,0.70535069,25.657395,885.73307)">
+      <path
+         id="path3007"
+         d="m 147.25985,2.3031495 0,42.9094475 -16.15749,0 0,-42.9094475 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3009"
+         d="m 173.23229,11.763779 0,8.255906 -23.31496,0 0,-8.255906 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3011"
+         d="m 138.18898,0 0,47.409448 -11.97638,0 0,-47.409448 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3013"
+         d="m 172.98426,29.09055 0,8.255906 -23.27953,0 0,-8.255906 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3015"
+         d="m 140.59843,149.56299 c 21.9685,-76.322834 50.17323,20.48031 56.44488,-4.11024 6.83858,-26.82283 -23.56299,-32.66929 -4.57087,-46.169288 35.00788,-24.874015 -49.25197,-17.114173 -65.40945,-15.874015 -16.19291,1.27559 -33.094484,4.641732 -48.9685,9.212598 C 14.598425,111.04724 -27.035434,147.3307 35.149607,149.03149 230.49213,154.48819 14.102362,38.728345 127.41733,24.342519"
+         style="fill:none;stroke:#ffffff;stroke-width:8.96456718px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
