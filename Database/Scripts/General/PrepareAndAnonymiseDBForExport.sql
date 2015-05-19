@@ -1,5 +1,5 @@
 --remove unnecessary or sensitive data for distribution of database to interested parties
-DECLARE @DBName nvarchar(100)='OCM_Clone'
+DECLARE @DBName nvarchar(100)='OCM_Export'
 
 TRUNCATE TABLE AuditLog
 TRUNCATE TABLE EditQueueItem
@@ -15,11 +15,11 @@ CHECKPOINT
 
 DBCC SHRINKDATABASE(@DBName )
 
-ALTER DATABASE [OCM_Clone] SET RECOVERY SIMPLE WITH NO_WAIT
+ALTER DATABASE [OCM_Export] SET RECOVERY SIMPLE WITH NO_WAIT
 
 DBCC SHRINKDATABASE(@DBName )
 
-BACKUP DATABASE [OCM_Clone] TO  DISK = N'C:\Temp\OCM_Clone.bak' WITH NOFORMAT, INIT,  NAME = N'OCM_Clone Backup', SKIP, NOREWIND, NOUNLOAD,  STATS = 10
+BACKUP DATABASE [OCM_Export] TO  DISK = N'C:\Temp\OCM_Clone.bak' WITH NOFORMAT, INIT,  NAME = N'OCM_Clone Backup', SKIP, NOREWIND, NOUNLOAD,  STATS = 10
 
 declare @backupSetId as int
 select @backupSetId = position from msdb..backupset where database_name=@DBName and backup_set_id=(select max(backup_set_id) from msdb..backupset where database_name=@DBName )

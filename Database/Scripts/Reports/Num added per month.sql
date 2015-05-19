@@ -4,6 +4,13 @@ ChargePoint
 GROUP BY YEAR(datecreated), MONTH(DateCreated)
 ORDER BY YearNum,MonthNum
 
+
+--num cp added per year
+select count(1) as NumAdded, Year(datecreated) as YearNum FROM 
+ChargePoint
+GROUP BY YEAR(datecreated)
+ORDER BY YearNum
+
 --num cp editted/added per month
 select count(1) as NumEdits,YEAR(dateprocessed) as YearNum, MONTH(dateprocessed) as MonthNum 
 from editQueueItem
