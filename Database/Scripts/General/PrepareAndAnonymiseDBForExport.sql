@@ -1,6 +1,8 @@
 --remove unnecessary or sensitive data for distribution of database to interested parties
 DECLARE @DBName nvarchar(100)='OCM_Export'
 
+USE OCM_Export
+
 TRUNCATE TABLE AuditLog
 TRUNCATE TABLE EditQueueItem
 TRUNCATE TABLE UserSubscription
