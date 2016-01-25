@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4099"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="573"
+   height="900"
+   sodipodi:docname="map_marker_template.svg">
+  <metadata
+     id="metadata4105">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4103">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient9088">
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:1;"
+         offset="0"
+         id="stop9090" />
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:0;"
+         offset="1"
+         id="stop9092" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="Inner">
+      <stop
+         style="stop-color:#0e0400;stop-opacity:1"
+         offset="0"
+         id="stop4466" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop4468" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5341-8-5">
+      <stop
+         style="stop-color:#e6e6e6;stop-opacity:0;"
+         offset="0"
+         id="stop5343-8-2" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.22321428;"
+         offset="1"
+         id="stop5345-2-7" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5341-8-5-1-4">
+      <stop
+         style="stop-color:#e6e6e6;stop-opacity:0;"
+         offset="0"
+         id="stop5343-8-2-8-3" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.22321428;"
+         offset="1"
+         id="stop5345-2-7-9-1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5341-8-5-1-4-1">
+      <stop
+         style="stop-color:#e6e6e6;stop-opacity:0;"
+         offset="0"
+         id="stop5343-8-2-8-3-1" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.22321428;"
+         offset="1"
+         id="stop5345-2-7-9-1-3" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter5342-97-7">
+      <feGaussianBlur
+         stdDeviation="1 1"
+         result="blur"
+         id="feGaussianBlur5344-28-1" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter5342-59-5">
+      <feGaussianBlur
+         stdDeviation="1 1"
+         result="blur"
+         id="feGaussianBlur5344-80-2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter5342-9-0">
+      <feGaussianBlur
+         stdDeviation="1 1"
+         result="blur"
+         id="feGaussianBlur5344-2-2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter5342-8-9">
+      <feGaussianBlur
+         stdDeviation="1 1"
+         result="blur"
+         id="feGaussianBlur5344-3-5" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter5342-4">
+      <feGaussianBlur
+         stdDeviation="1 1"
+         result="blur"
+         id="feGaussianBlur5344-4" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter5342-97-7-1">
+      <feGaussianBlur
+         stdDeviation="1 1"
+         result="blur"
+         id="feGaussianBlur5344-28-1-2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter5342-59-5-7">
+      <feGaussianBlur
+         stdDeviation="1 1"
+         result="blur"
+         id="feGaussianBlur5344-80-2-7" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9088"
+       id="linearGradient3930"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0579052,0,0,0.96269253,-261.92767,344.88297)"
+       x1="468.26297"
+       y1="79.133499"
+       x2="543.41223"
+       y2="166.45818" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Inner"
+       id="linearGradient3932"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.042717,0,0,1.0096566,262.15926,319.08814)"
+       x1="33.542503"
+       y1="116.43617"
+       x2="22.138348"
+       y2="141.96808" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter5342-9-0-7">
+      <feGaussianBlur
+         stdDeviation="1 1"
+         result="blur"
+         id="feGaussianBlur5344-2-2-7" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9088"
+       id="linearGradient3936"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0579052,0,0,0.96269253,-342.15366,344.31801)"
+       x1="468.26297"
+       y1="79.133499"
+       x2="543.41223"
+       y2="166.45818" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Inner"
+       id="linearGradient3938"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.042717,0,0,1.0096566,181.93326,318.52318)"
+       x1="33.542503"
+       y1="116.43617"
+       x2="22.138348"
+       y2="141.96808" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter5342-8-9-4">
+      <feGaussianBlur
+         stdDeviation="1 1"
+         result="blur"
+         id="feGaussianBlur5344-3-5-3" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9088"
+       id="linearGradient3942"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0579052,0,0,0.96269253,-432.54914,343.75303)"
+       x1="468.26297"
+       y1="79.133499"
+       x2="543.41223"
+       y2="166.45818" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Inner"
+       id="linearGradient3944"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.042717,0,0,1.0096566,91.53778,317.9582)"
+       x1="33.542503"
+       y1="116.43617"
+       x2="22.138348"
+       y2="141.96808" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter5342-4-4">
+      <feGaussianBlur
+         stdDeviation="1 1"
+         result="blur"
+         id="feGaussianBlur5344-4-9" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9088"
+       id="linearGradient3948"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0579052,0,0,0.96269253,-507.56377,343.62344)"
+       x1="468.26297"
+       y1="79.133499"
+       x2="543.41223"
+       y2="166.45818" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Inner"
+       id="linearGradient3950"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.042717,0,0,1.0096566,16.523154,317.82861)"
+       x1="33.542503"
+       y1="116.43617"
+       x2="22.138348"
+       y2="141.96808" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9088"
+       id="linearGradient3621"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0581482,0,0,0.96269188,-181.82164,344.88309)"
+       x1="468.26297"
+       y1="79.133499"
+       x2="543.41223"
+       y2="166.45818" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Inner"
+       id="linearGradient3623"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0429565,0,0,1.0096559,342.38567,319.08828)"
+       x1="33.542503"
+       y1="116.43617"
+       x2="22.138348"
+       y2="141.96808" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9088"
+       id="linearGradient3653"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0579052,0,0,0.96269253,-261.92767,344.88297)"
+       x1="468.26297"
+       y1="79.133499"
+       x2="543.41223"
+       y2="166.45818" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Inner"
+       id="linearGradient3655"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.042717,0,0,1.0096566,262.15926,319.08814)"
+       x1="33.542503"
+       y1="116.43617"
+       x2="22.138348"
+       y2="141.96808" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9088"
+       id="linearGradient3685"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0579052,0,0,0.96269253,-342.15366,344.31801)"
+       x1="468.26297"
+       y1="79.133499"
+       x2="543.41223"
+       y2="166.45818" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Inner"
+       id="linearGradient3687"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.042717,0,0,1.0096566,181.93326,318.52318)"
+       x1="33.542503"
+       y1="116.43617"
+       x2="22.138348"
+       y2="141.96808" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9088"
+       id="linearGradient3717"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0579052,0,0,0.96269253,-432.54914,343.75303)"
+       x1="468.26297"
+       y1="79.133499"
+       x2="543.41223"
+       y2="166.45818" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Inner"
+       id="linearGradient3719"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.042717,0,0,1.0096566,91.53778,317.9582)"
+       x1="33.542503"
+       y1="116.43617"
+       x2="22.138348"
+       y2="141.96808" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9088"
+       id="linearGradient3749"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0579052,0,0,0.96269253,-508.85914,-75.16602)"
+       x1="468.26297"
+       y1="79.133499"
+       x2="543.41223"
+       y2="166.45818" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Inner"
+       id="linearGradient3751"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.042717,0,0,1.0096566,15.227781,-100.96085)"
+       x1="33.542503"
+       y1="116.43617"
+       x2="22.138348"
+       y2="141.96808" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
+     id="namedview4101"
+     showgrid="true"
+     inkscape:zoom="1.58"
+     inkscape:cx="244.28657"
+     inkscape:cy="664.28146"
+     inkscape:window-x="1366"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4099"
+     inkscape:snap-global="false"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4110"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Base"
+     style="display:inline">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4798"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(-24.683544,-70.886076)"><flowRegion
+         id="flowRegion4800"><rect
+           id="rect4802"
+           width="494.93671"
+           height="61.392391"
+           x="51.265823"
+           y="207.59494" /></flowRegion><flowPara
+         id="flowPara4808"
+         style="font-size:12.5px">Notes:</flowPara><flowPara
+         id="flowPara4818"
+         style="font-size:12.5px">Operational status is in the Status sublayers, levels are in the Level sublayers</flowPara><flowPara
+         style="font-size:12.5px"
+         id="flowPara4829">For easier exporting, hide all Status and Level sublayers before saving</flowPara><flowPara
+         id="flowPara4806"
+         style="font-size:12.5px" /><flowPara
+         id="flowPara4810"
+         style="font-size:12.5px" /><flowPara
+         id="flowPara4812"
+         style="font-size:12.5px" /><flowPara
+         id="flowPara4814"
+         style="font-size:12.5px" /></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Level"
+     style="display:inline">
+    <g
+       inkscape:groupmode="layer"
+       id="layer13"
+       inkscape:label="level4"
+       style="display:none">
+      <g
+         style="display:inline"
+         id="use5161-6-9"
+         transform="translate(-327.15745,-420.049)">
+        <path
+           transform="matrix(1.0343968,0,0,0.96062923,167.333,319.54836)"
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="sccccccccss"
+           inkscape:connector-curvature="0"
+           id="path3611"
+           d="m 193.9452,118.52245 c -10.71295,0.41173 -20.61117,7.09944 -24.2483,16.15625 -2.55303,5.34545 -1.84859,11.32003 0.043,16.72763 5.44287,16.54259 13.64047,32.21912 21.74861,47.81315 0.78015,1.46471 1.57566,2.92353 2.45082,4.34479 1.14987,3.426 2.94637,0.83444 3.77199,-1.23929 7.48111,-13.85094 14.51569,-27.92212 20.49584,-42.35444 3.04322,-7.91155 6.75884,-16.73856 3.09187,-25.02259 -3.52165,-9.51328 -14.04274,-16.34724 -25.20206,-16.42343 -0.71978,-0.0295 -1.43757,-0.0295 -2.15178,-0.002 z"
+           style="opacity:0.62000008;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99556303;filter:url(#filter5342-97-7)" />
+        <path
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="sccccccccss"
+           inkscape:connector-curvature="0"
+           id="path3613"
+           d="m 368.23481,433.47558 c -11.11411,0.39599 -21.38296,6.82806 -25.15626,15.53866 -2.64865,5.1411 -1.91783,10.8873 0.0446,16.08818 5.64668,15.91023 14.15123,30.98751 22.56297,45.98545 0.80936,1.40871 1.63467,2.81177 2.5426,4.1787 1.19293,3.29505 3.05669,0.80254 3.91321,-1.19192 7.76124,-13.32147 15.05923,-26.85477 21.2633,-40.73538 3.15718,-7.60914 7.01194,-16.09873 3.20765,-24.06608 -3.65352,-9.1496 -14.56855,-15.72235 -26.14573,-15.79563 -0.74673,-0.0284 -1.49139,-0.0284 -2.23234,-0.002 z"
+           style="fill:#ff0000;fill-opacity:1;stroke:none" />
+        <path
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="ccccc"
+           inkscape:connector-curvature="0"
+           id="path3615"
+           d="m 368.86016,434.09603 c 0,0 -16.11569,-1.80412 -25.70494,15.09523 -2.7064,4.99437 -1.95963,10.57658 0.0456,15.62903 7.28085,19.85423 17.43354,36.08884 26.42771,50.68746 -3.70546,-23.27613 -0.7684,-81.41172 -0.7684,-81.41172 z"
+           style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:url(#linearGradient3621);stroke-width:1.02123439;stroke-opacity:0.27810651" />
+        <ellipse
+           ry="18.018801"
+           rx="18.6131"
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           cy="458.99011"
+           cx="368.53729"
+           id="ellipse3617"
+           style="fill:#000000;fill-opacity:0.37869825;fill-rule:evenodd;stroke:url(#linearGradient3623);stroke-width:1.01385725;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="sccccccccss"
+           inkscape:connector-curvature="0"
+           id="path3619"
+           d="m 367.76703,433.48222 c -11.1494,0.38879 -21.45093,6.70378 -25.23623,15.25584 -2.65706,5.04753 -1.92391,10.68914 0.0447,15.79535 5.66461,15.62064 14.19621,30.4235 22.63471,45.14843 0.81195,1.38307 1.63986,2.7606 2.55068,4.10265 1.19672,3.23506 3.06641,0.78793 3.92567,-1.17022 7.78591,-13.079 15.1071,-26.36596 21.33091,-39.99395 3.16718,-7.47061 7.0342,-15.80568 3.21784,-23.62802 -3.66515,-8.98308 -14.6149,-15.43618 -26.22888,-15.50813 -0.7491,-0.0279 -1.49613,-0.0279 -2.23946,-0.002 z"
+           style="opacity:0.22000002;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98693395" />
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer12"
+       inkscape:label="level3"
+       style="display:none">
+      <g
+         style="display:inline"
+         id="use5122-0-0"
+         transform="translate(-246.93147,-420.04899)">
+        <path
+           transform="matrix(1.0343968,0,0,0.96062923,87.10702,319.54835)"
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="sccccccccss"
+           inkscape:connector-curvature="0"
+           id="path3643"
+           d="m 193.9452,118.52245 c -10.71295,0.41173 -20.61117,7.09944 -24.2483,16.15625 -2.55303,5.34545 -1.84859,11.32003 0.043,16.72763 5.44287,16.54259 13.64047,32.21912 21.74861,47.81315 0.78015,1.46471 1.57566,2.92353 2.45082,4.34479 1.14987,3.426 2.94637,0.83444 3.77199,-1.23929 7.48111,-13.85094 14.51569,-27.92212 20.49584,-42.35444 3.04322,-7.91155 6.75884,-16.73856 3.09187,-25.02259 -3.52165,-9.51328 -14.04274,-16.34724 -25.20206,-16.42343 -0.71978,-0.0295 -1.43757,-0.0295 -2.15178,-0.002 z"
+           style="opacity:0.62000008;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99556303;filter:url(#filter5342-59-5)" />
+        <path
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="sccccccccss"
+           inkscape:connector-curvature="0"
+           id="path3645"
+           d="m 288.00246,433.47552 c -11.11155,0.39599 -21.37804,6.82806 -25.15048,15.53867 -2.64804,5.1411 -1.91739,10.8873 0.0446,16.08819 5.64538,15.91024 14.14798,30.98753 22.55779,45.98548 0.80917,1.40871 1.63429,2.81177 2.54202,4.1787 1.19265,3.29505 3.05598,0.80254 3.91231,-1.19192 7.75946,-13.32148 15.05577,-26.85479 21.25841,-40.73541 3.15646,-7.60914 7.01033,-16.09874 3.20692,-24.06609 -3.65268,-9.14961 -14.56521,-15.72236 -26.13973,-15.79564 -0.74656,-0.0284 -1.49105,-0.0284 -2.23183,-0.002 z"
+           style="fill:#ff7f2a;fill-opacity:1;stroke:none" />
+        <path
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="ccccc"
+           inkscape:connector-curvature="0"
+           id="path3647"
+           d="m 288.62767,434.09597 c 0,0 -16.11199,-1.80413 -25.69904,15.09524 -2.70577,4.99437 -1.95918,10.57658 0.0456,15.62904 7.27918,19.85424 17.42954,36.08886 26.42164,50.68749 -3.7046,-23.27615 -0.76822,-81.41177 -0.76822,-81.41177 z"
+           style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:url(#linearGradient3653);stroke-width:1.02111745;stroke-opacity:0.27810651" />
+        <ellipse
+           ry="18.018812"
+           rx="18.608826"
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           cy="458.99011"
+           cx="288.30487"
+           id="ellipse3649"
+           style="fill:#000000;fill-opacity:0.37869825;fill-rule:evenodd;stroke:url(#linearGradient3655);stroke-width:1.01374114;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="sccccccccss"
+           inkscape:connector-curvature="0"
+           id="path3651"
+           d="m 287.53479,433.48216 c -11.14684,0.3888 -21.446,6.70379 -25.23043,15.25586 -2.65645,5.04753 -1.92347,10.68914 0.0447,15.79536 5.66331,15.62065 14.19295,30.42351 22.62951,45.14846 0.81176,1.38307 1.63948,2.7606 2.55009,4.10265 1.19645,3.23506 3.06571,0.78793 3.92477,-1.17022 7.78412,-13.07901 15.10363,-26.36598 21.32601,-39.99398 3.16646,-7.47062 7.03259,-15.80569 3.2171,-23.62803 -3.6643,-8.98309 -14.61154,-15.43619 -26.22285,-15.50814 -0.74893,-0.0279 -1.49579,-0.0279 -2.23895,-0.002 z"
+           style="opacity:0.22000002;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98682094" />
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer11"
+       inkscape:label="level2"
+       style="display:none">
+      <g
+         style="display:inline"
+         id="use5083-5-7"
+         transform="translate(-166.70548,-419.48403)">
+        <path
+           transform="matrix(1.0343968,0,0,0.96062923,6.881027,318.98339)"
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="sccccccccss"
+           inkscape:connector-curvature="0"
+           id="path3675"
+           d="m 193.9452,118.52245 c -10.71295,0.41173 -20.61117,7.09944 -24.2483,16.15625 -2.55303,5.34545 -1.84859,11.32003 0.043,16.72763 5.44287,16.54259 13.64047,32.21912 21.74861,47.81315 0.78015,1.46471 1.57566,2.92353 2.45082,4.34479 1.14987,3.426 2.94637,0.83444 3.77199,-1.23929 7.48111,-13.85094 14.51569,-27.92212 20.49584,-42.35444 3.04322,-7.91155 6.75884,-16.73856 3.09187,-25.02259 -3.52165,-9.51328 -14.04274,-16.34724 -25.20206,-16.42343 -0.71978,-0.0295 -1.43757,-0.0295 -2.15178,-0.002 z"
+           style="opacity:0.62000008;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99556303;filter:url(#filter5342-9-0)" />
+        <path
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="sccccccccss"
+           inkscape:connector-curvature="0"
+           id="path3677"
+           d="m 207.77646,432.91056 c -11.11154,0.39599 -21.37803,6.82806 -25.15048,15.53867 -2.64804,5.1411 -1.91738,10.8873 0.0446,16.08819 5.64539,15.91024 14.14798,30.98753 22.55779,45.98548 0.80918,1.40871 1.63429,2.81177 2.54202,4.1787 1.19265,3.29505 3.05599,0.80254 3.91232,-1.19192 7.75946,-13.32148 15.05576,-26.85479 21.25841,-40.73541 3.15646,-7.60914 7.01033,-16.09874 3.20692,-24.06609 -3.65268,-9.14961 -14.56522,-15.72236 -26.13973,-15.79564 -0.74656,-0.0284 -1.49106,-0.0284 -2.23184,-0.002 z"
+           style="fill:#92b857;fill-opacity:1;stroke:none" />
+        <path
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="ccccc"
+           inkscape:connector-curvature="0"
+           id="path3679"
+           d="m 208.40168,433.53101 c 0,0 -16.11199,-1.80413 -25.69904,15.09524 -2.70577,4.99437 -1.95919,10.57658 0.0456,15.62904 7.27918,19.85424 17.42953,36.08886 26.42163,50.68749 -3.70459,-23.27615 -0.76821,-81.41177 -0.76821,-81.41177 z"
+           style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:url(#linearGradient3685);stroke-width:1.02111745;stroke-opacity:0.27810651" />
+        <ellipse
+           ry="18.018812"
+           rx="18.608826"
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           cy="458.42511"
+           cx="208.07887"
+           id="ellipse3681"
+           style="fill:#000000;fill-opacity:0.37869825;fill-rule:evenodd;stroke:url(#linearGradient3687);stroke-width:1.01374114;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="sccccccccss"
+           inkscape:connector-curvature="0"
+           id="path3683"
+           d="m 207.3088,432.9172 c -11.14684,0.38879 -21.446,6.70378 -25.23043,15.25585 -2.65645,5.04753 -1.92347,10.68914 0.0447,15.79536 5.66331,15.62065 14.19295,30.42352 22.62951,45.14846 0.81176,1.38307 1.63948,2.7606 2.55009,4.10265 1.19645,3.23506 3.06571,0.78793 3.92477,-1.17022 7.78412,-13.07901 15.10363,-26.36598 21.32601,-39.99398 3.16646,-7.47061 7.03259,-15.80569 3.2171,-23.62803 -3.6643,-8.98309 -14.61154,-15.43619 -26.22285,-15.50814 -0.74893,-0.0279 -1.49579,-0.0279 -2.23895,-0.002 z"
+           style="opacity:0.22000002;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98682094" />
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer10"
+       inkscape:label="level1"
+       style="display:none">
+      <g
+         style="display:inline"
+         id="use5044-5-3"
+         transform="translate(-76.309996,-418.91905)">
+        <path
+           transform="matrix(1.0343968,0,0,0.96062923,-83.514454,318.41841)"
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="sccccccccss"
+           inkscape:connector-curvature="0"
+           id="path3707"
+           d="m 193.9452,118.52245 c -10.71295,0.41173 -20.61117,7.09944 -24.2483,16.15625 -2.55303,5.34545 -1.84859,11.32003 0.043,16.72763 5.44287,16.54259 13.64047,32.21912 21.74861,47.81315 0.78015,1.46471 1.57566,2.92353 2.45082,4.34479 1.14987,3.426 2.94637,0.83444 3.77199,-1.23929 7.48111,-13.85094 14.51569,-27.92212 20.49584,-42.35444 3.04322,-7.91155 6.75884,-16.73856 3.09187,-25.02259 -3.52165,-9.51328 -14.04274,-16.34724 -25.20206,-16.42343 -0.71978,-0.0295 -1.43757,-0.0295 -2.15178,-0.002 z"
+           style="opacity:0.62000008;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99556303;filter:url(#filter5342-8-9)" />
+        <path
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="sccccccccss"
+           inkscape:connector-curvature="0"
+           id="path3709"
+           d="m 117.38098,432.34558 c -11.11154,0.39599 -21.37803,6.82806 -25.15048,15.53867 -2.64804,5.1411 -1.91738,10.8873 0.0446,16.08819 5.64538,15.91024 14.14798,30.98753 22.55779,45.98548 0.80917,1.40871 1.63429,2.81177 2.54202,4.1787 1.19265,3.29505 3.05599,0.80254 3.91231,-1.19192 7.75947,-13.32148 15.05577,-26.85479 21.25841,-40.73541 3.15647,-7.60914 7.01033,-16.09874 3.20693,-24.06609 -3.65268,-9.14961 -14.56522,-15.72236 -26.13974,-15.79564 -0.74655,-0.0284 -1.49105,-0.0284 -2.23183,-0.002 z"
+           style="fill:#a0892c;fill-opacity:1;stroke:none" />
+        <path
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="ccccc"
+           inkscape:connector-curvature="0"
+           id="path3711"
+           d="m 118.00619,432.96603 c 0,0 -16.11199,-1.80413 -25.69903,15.09524 -2.70578,4.99437 -1.95919,10.57658 0.0456,15.62904 7.27918,19.85424 17.42954,36.08886 26.42164,50.68749 -3.7046,-23.27615 -0.76822,-81.41177 -0.76822,-81.41177 z"
+           style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:url(#linearGradient3717);stroke-width:1.02111745;stroke-opacity:0.27810651" />
+        <ellipse
+           ry="18.018812"
+           rx="18.608826"
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           cy="457.86011"
+           cx="117.68338"
+           id="ellipse3713"
+           style="fill:#000000;fill-opacity:0.37869825;fill-rule:evenodd;stroke:url(#linearGradient3719);stroke-width:1.01374114;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="sccccccccss"
+           inkscape:connector-curvature="0"
+           id="path3715"
+           d="m 116.91331,432.35222 c -11.14684,0.3888 -21.44599,6.70379 -25.23042,15.25586 -2.65645,5.04753 -1.92347,10.68914 0.0447,15.79536 5.66331,15.62065 14.19295,30.42351 22.62951,45.14846 0.81175,1.38307 1.63947,2.7606 2.55008,4.10265 1.19645,3.23506 3.06572,0.78793 3.92477,-1.17022 7.78413,-13.07901 15.10364,-26.36598 21.32601,-39.99398 3.16647,-7.47062 7.0326,-15.80569 3.21711,-23.62803 -3.6643,-8.98309 -14.61154,-15.43619 -26.22285,-15.50814 -0.74893,-0.0279 -1.49579,-0.0279 -2.23895,-0.002 z"
+           style="opacity:0.22000002;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98682094" />
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer8"
+       inkscape:label="level0"
+       style="display:none">
+      <g
+         style="display:inline"
+         id="g3906">
+        <path
+           transform="matrix(1.0343968,0,0,0.96062923,-159.82445,-100.50064)"
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="sccccccccss"
+           inkscape:connector-curvature="0"
+           id="path3739"
+           d="m 193.9452,118.52245 c -10.71295,0.41173 -20.61117,7.09944 -24.2483,16.15625 -2.55303,5.34545 -1.84859,11.32003 0.043,16.72763 5.44287,16.54259 13.64047,32.21912 21.74861,47.81315 0.78015,1.46471 1.57566,2.92353 2.45082,4.34479 1.14987,3.426 2.94637,0.83444 3.77199,-1.23929 7.48111,-13.85094 14.51569,-27.92212 20.49584,-42.35444 3.04322,-7.91155 6.75884,-16.73856 3.09187,-25.02259 -3.52165,-9.51328 -14.04274,-16.34724 -25.20206,-16.42343 -0.71978,-0.0295 -1.43757,-0.0295 -2.15178,-0.002 z"
+           style="opacity:0.62000008;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99556303;filter:url(#filter5342-4)" />
+        <path
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="sccccccccss"
+           inkscape:connector-curvature="0"
+           id="path3741"
+           d="M 41.070981,13.42653 C 29.959436,13.82252 19.692947,20.25459 15.9205,28.9652 c -2.64804,5.1411 -1.917385,10.8873 0.04459,16.08819 5.645383,15.91024 14.147982,30.98753 22.55779,45.98548 0.809173,1.40871 1.63429,2.81177 2.542023,4.1787 1.192649,3.29505 3.055982,0.80254 3.912312,-1.19192 C 52.736678,80.70417 60.032979,67.17086 66.235624,53.29024 69.392089,45.6811 73.245953,37.1915 69.442547,29.22415 65.789866,20.07454 54.877331,13.50179 43.302815,13.42851 c -0.746558,-0.0284 -1.491052,-0.0284 -2.231833,-0.002 z"
+           style="fill:#808080;fill-opacity:1;stroke:none" />
+        <path
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="ccccc"
+           inkscape:connector-curvature="0"
+           id="path3743"
+           d="m 41.696193,14.04698 c 0,0 -16.111991,-1.80413 -25.699037,15.09524 -2.705774,4.99437 -1.959186,10.57658 0.0456,15.62904 7.27918,19.85424 17.429538,36.08886 26.421639,50.68749 C 38.759798,72.1826 41.696177,14.04698 41.696177,14.04698 Z"
+           style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:url(#linearGradient3749);stroke-width:1.02111745;stroke-opacity:0.27810651" />
+        <ellipse
+           ry="18.018812"
+           rx="18.608826"
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           cy="38.941071"
+           cx="41.37339"
+           id="ellipse3745"
+           style="fill:#000000;fill-opacity:0.37869825;fill-rule:evenodd;stroke:url(#linearGradient3751);stroke-width:1.01374114;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="89.999519"
+           inkscape:export-xdpi="89.999519"
+           inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+           sodipodi:nodetypes="sccccccccss"
+           inkscape:connector-curvature="0"
+           id="path3747"
+           d="m 40.60331,13.43317 c -11.14684,0.3888 -21.445993,6.70379 -25.230429,15.25586 -2.656447,5.04752 -1.923464,10.68914 0.04471,15.79536 5.663313,15.62065 14.192954,30.42351 22.629511,45.14846 0.811757,1.38307 1.639475,2.7606 2.550084,4.10265 1.196452,3.23506 3.065714,0.78793 3.924771,-1.17022 C 52.30608,79.48627 59.62559,66.1993 65.847967,52.5713 69.014431,45.10068 72.880559,36.76561 69.065072,28.94327 65.400768,19.96018 54.453532,13.50708 42.842223,13.43513 c -0.748928,-0.0279 -1.495793,-0.0279 -2.238953,-0.002 z"
+           style="opacity:0.22000002;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98682094" />
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Status"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <g
+       inkscape:groupmode="layer"
+       id="layer3"
+       inkscape:label="nonoperational"
+       style="display:none">
+      <path
+         style="display:inline;fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.06436185px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 49.996571,26.953671 a 4.8111312,4.8111312 0 0 0 -4.67311,1.23439 4.8111312,4.8111312 0 0 0 -1.14674,4.95133 l -14.33881,14.33881 c -0.83081,0.83081 -0.83081,2.168448 0,2.999262 0.83081,0.83081 2.16854,0.8309 2.99935,7e-5 l 14.3365,-14.336502 a 4.8111312,4.8111312 0 0 0 4.95364,-1.14903 4.8111312,4.8111312 0 0 0 1.23243,-4.67116 l -0.68026,0.68026 -0.0533,0.0533 -1.94647,1.94647 -2.68255,-0.68275 -0.68267,-2.68247 1.94647,-1.94647 0.0533,-0.0533 0.68221,-0.68222 z m -17.63148,20.99662 a 1.4011132,1.4011132 0 0 1 0,1.981492 1.4011132,1.4011132 0 0 1 -1.9815,0 1.4011132,1.4011132 0 0 1 0,-1.981492 1.4011132,1.4011132 0 0 1 1.9815,0 z"
+         id="path3336-6-2"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer2"
+       inkscape:label="private"
+       style="display:none">
+      <g
+         style="display:inline"
+         id="g5239-5"
+         transform="translate(106.99839,-272.77768)">
+        <ellipse
+           ry="9.7372341"
+           rx="10.080701"
+           cy="311.71875"
+           cx="-65.625"
+           id="path4645-3-9"
+           style="opacity:1;fill:#ff5555;fill-opacity:1;stroke:#000000;stroke-width:0.41799107;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.27810651" />
+        <rect
+           y="309.81592"
+           x="-72.403473"
+           height="3.9825654"
+           width="14.059956"
+           id="rect4650-03-3"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.86727214;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.27810651" />
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer1"
+       inkscape:label="operational"
+       style="display:none">
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="use4182-9-3-4-8-8-8-5-0-1-7-6-7-6-3-1"
+         d="m 33.04247,49.558221 6.89589,-8.42496 -7.69309,-1.74465 18.25624,-11.06469 -10.10469,10.5867 9.52663,0 z"
+         style="display:inline;fill:#ffffff;stroke:none"
+         inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+         inkscape:export-xdpi="89.999519"
+         inkscape:export-ydpi="89.999519" />
+    </g>
+  </g>
+</svg>
