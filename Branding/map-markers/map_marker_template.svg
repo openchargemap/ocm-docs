@@ -15,7 +15,7 @@
    inkscape:version="0.91 r13725"
    width="573"
    height="900"
-   sodipodi:docname="map_marker_template.svg">
+   sodipodi:docname="map_marker_template_new.svg">
   <metadata
      id="metadata4105">
     <rdf:RDF>
@@ -291,13 +291,13 @@
      inkscape:window-height="1021"
      id="namedview4101"
      showgrid="true"
-     inkscape:zoom="1.58"
-     inkscape:cx="53.795538"
-     inkscape:cy="740.23083"
+     inkscape:zoom="1.3969008"
+     inkscape:cx="79.724294"
+     inkscape:cy="700.23327"
      inkscape:window-x="1366"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer7"
      inkscape:snap-global="false"
      showguides="false">
     <inkscape:grid
@@ -309,26 +309,27 @@
   <g
      inkscape:groupmode="layer"
      id="layer7"
-     inkscape:label="Text"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     inkscape:label="Base"
+     style="display:inline">
     <flowRoot
        xml:space="preserve"
        id="flowRoot4798"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(-24.683544,-70.886076)"><flowRegion
+       transform="translate(-20.388321,-35.092554)"><flowRegion
          id="flowRegion4800"><rect
            id="rect4802"
-           width="494.93671"
-           height="61.392391"
-           x="51.265823"
-           y="207.59494" /></flowRegion><flowPara
+           width="351.7626"
+           height="159.46663"
+           x="34.800804"
+           y="206.87907" /></flowRegion><flowPara
          id="flowPara4808"
          style="font-size:12.5px">Notes:</flowPara><flowPara
          style="font-size:12.5px"
-         id="flowPara4829">Operational status is in the Status sublayers, levels are in the Level sublayers</flowPara><flowPara
+         id="flowPara3495">This template is used along with the script generate_markers.py to produce map marker icons.</flowPara><flowPara
          style="font-size:12.5px"
-         id="flowPara3414">Marker is split between lower and upper layers - the colour (level) layers lie in between.</flowPara><flowPara
+         id="flowPara3414">Operational status icons are in the Status sublayers.</flowPara><flowPara
+         style="font-size:12.5px"
+         id="flowPara3478">Objects to be coloured should have an ID in the format clr&lt;x&gt;obj&lt;n&gt;, and colour swatches should have IDs clr&lt;x&gt;-&lt;y&gt;</flowPara><flowPara
          id="flowPara4806"
          style="font-size:12.5px" /><flowPara
          id="flowPara4810"
@@ -336,145 +337,226 @@
          id="flowPara4812"
          style="font-size:12.5px" /><flowPara
          id="flowPara4814"
-         style="font-size:12.5px" /></flowRoot>  </g>
+         style="font-size:12.5px" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4491"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion4493"><rect
+           id="rect4495"
+           width="152.48041"
+           height="23.623724"
+           x="390.86526"
+           y="13.752387"
+           style="font-size:12.5px;line-height:125%;text-align:center;writing-mode:lr-tb;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara4497">Colour swatches</flowPara></flowRoot>    <rect
+       style="display:inline;fill:#808080;fill-opacity:1;stroke:#ffffff;stroke-width:0.59468472;stroke-opacity:1"
+       id="clr0-0"
+       width="39.405315"
+       height="39.405315"
+       x="407.09677"
+       y="79.394714"
+       inkscape:label="#rect3650" />
+    <rect
+       style="display:inline;fill:#a0892c;fill-opacity:1;stroke:#ffffff;stroke-width:0.59468472;stroke-opacity:1"
+       id="clr0-1"
+       width="39.405315"
+       height="39.405315"
+       x="407.09677"
+       y="124.6165"
+       inkscape:label="#rect3650" />
+    <rect
+       style="display:inline;fill:#ff0000;fill-opacity:1;stroke:#ffffff;stroke-width:0.59468472;stroke-opacity:1"
+       id="clr0-4"
+       width="39.405315"
+       height="39.405315"
+       x="407.09677"
+       y="260.28198"
+       inkscape:label="#rect3650" />
+    <rect
+       style="display:inline;fill:#ff7f2a;fill-opacity:1;stroke:#ffffff;stroke-width:0.59468472;stroke-opacity:1"
+       id="clr0-3"
+       width="39.405315"
+       height="39.405315"
+       x="407.09677"
+       y="215.06015"
+       inkscape:label="#rect3650" />
+    <rect
+       style="display:inline;fill:#92b857;fill-opacity:1;stroke:#ffffff;stroke-width:0.59468472;stroke-opacity:1"
+       id="clr0-2"
+       width="39.405315"
+       height="39.405315"
+       x="407.09677"
+       y="169.83832"
+       inkscape:label="#rect3650" />
+    <rect
+       style="fill:#7f00ff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
+       id="rect4526"
+       width="49.395061"
+       height="23.623724"
+       x="402.1019"
+       y="51.69352" />
+    <flowRoot
+       transform="translate(14.335196,41.845739)"
+       xml:space="preserve"
+       id="flowRoot4491-9"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion4493-1"><rect
+           id="rect4495-6"
+           width="43.668098"
+           height="20.760242"
+           x="390.86526"
+           y="13.752387"
+           style="font-size:12.5px;line-height:125%;text-align:center;writing-mode:lr-tb;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara4497-9">clr0</flowPara></flowRoot>    <rect
+       style="display:inline;fill:#80ca80;fill-opacity:1;stroke:#ffffff;stroke-width:0.59468472;stroke-opacity:1"
+       id="clr1-0"
+       width="39.405315"
+       height="39.405315"
+       x="472.10034"
+       y="79.394707"
+       inkscape:label="#rect3650" />
+    <rect
+       style="display:inline;fill:#a0392c;fill-opacity:1;stroke:#ffffff;stroke-width:0.59468472;stroke-opacity:1"
+       id="clr1-1"
+       width="39.405315"
+       height="39.405315"
+       x="472.10034"
+       y="124.61649"
+       inkscape:label="#rect3650" />
+    <rect
+       style="display:inline;fill:#ff00ec;fill-opacity:1;stroke:#ffffff;stroke-width:0.59468472;stroke-opacity:1"
+       id="clr1-4"
+       width="39.405315"
+       height="39.405315"
+       x="472.10034"
+       y="260.28198"
+       inkscape:label="#rect3650" />
+    <rect
+       style="display:inline;opacity:1;fill:#537f2a;fill-opacity:0.22188451;stroke:#ffffff;stroke-width:0.59468472;stroke-opacity:1"
+       id="clr1-3"
+       width="39.405315"
+       height="39.405315"
+       x="472.10034"
+       y="215.06015"
+       inkscape:label="#rect3650" />
+    <rect
+       style="display:inline;fill:#92b8c7;fill-opacity:1;stroke:#ffffff;stroke-width:0.59468472;stroke-opacity:1"
+       id="clr1-2"
+       width="39.405315"
+       height="39.405315"
+       x="472.10034"
+       y="169.83832"
+       inkscape:label="#rect3650" />
+    <rect
+       style="display:inline;fill:#00ff00;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
+       id="rect4526-1"
+       width="49.395061"
+       height="23.623724"
+       x="467.10547"
+       y="51.69352" />
+    <flowRoot
+       transform="translate(79.338766,41.84573)"
+       xml:space="preserve"
+       id="flowRoot4491-9-3"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion4493-1-6"><rect
+           id="rect4495-6-9"
+           width="43.668098"
+           height="20.760242"
+           x="390.86526"
+           y="13.752387"
+           style="font-size:12.5px;line-height:125%;text-align:center;writing-mode:lr-tb;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara4644">clr1</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4656"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(-131.00429,6.5682591)"><flowRegion
+         id="flowRegion4658"><rect
+           id="rect4660"
+           width="20.760302"
+           height="217.62457"
+           x="520.43774"
+           y="81.760078"
+           style="font-size:12.5px" /></flowRegion><flowPara
+         id="flowPara4697">0</flowPara><flowPara
+         id="flowPara4695" /><flowPara
+         id="flowPara5840" /><flowPara
+         id="flowPara4703">1</flowPara><flowPara
+         id="flowPara4672" /><flowPara
+         id="flowPara5842" /><flowPara
+         id="flowPara4713">2</flowPara><flowPara
+         id="flowPara4683" /><flowPara
+         id="flowPara5844" /><flowPara
+         id="flowPara4717">3</flowPara><flowPara
+         id="flowPara4685" /><flowPara
+         id="flowPara5846" /><flowPara
+         id="flowPara5832">4</flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Marker-lower"
-     style="display:inline"
-     sodipodi:insensitive="true">
-    <path
-       style="opacity:0.62000008;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99556303;filter:url(#filter5342-4)"
-       d="m 193.9452,118.52245 c -10.71295,0.41173 -20.61117,7.09944 -24.2483,16.15625 -2.55303,5.34545 -1.84859,11.32003 0.043,16.72763 5.44287,16.54259 13.64047,32.21912 21.74861,47.81315 0.78015,1.46471 1.57566,2.92353 2.45082,4.34479 1.14987,3.426 2.94637,0.83444 3.77199,-1.23929 7.48111,-13.85094 14.51569,-27.92212 20.49584,-42.35444 3.04322,-7.91155 6.75884,-16.73856 3.09187,-25.02259 -3.52165,-9.51328 -14.04274,-16.34724 -25.20206,-16.42343 -0.71978,-0.0295 -1.43757,-0.0295 -2.15178,-0.002 z"
-       id="path3739"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sccccccccss"
-       inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
-       inkscape:export-xdpi="89.999519"
-       inkscape:export-ydpi="89.999519"
-       transform="matrix(1.0343968,0,0,0.96062923,-159.82445,-100.50064)" />
-    <path
-       style="display:inline;opacity:0.22000002;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98682094"
-       d="m 40.78314,13.43317 c -11.14684,0.3888 -21.445993,6.70379 -25.230429,15.25586 -2.656447,5.04752 -1.923464,10.68914 0.04471,15.79536 5.663313,15.62065 14.192954,30.42351 22.629511,45.14846 0.811757,1.38307 1.639475,2.7606 2.550084,4.10265 1.196452,3.23506 3.065714,0.78793 3.924771,-1.17022 C 52.48591,79.48627 59.80542,66.1993 66.027797,52.5713 69.194261,45.10068 73.060389,36.76561 69.244902,28.94327 65.580598,19.96018 54.633362,13.50708 43.022053,13.43513 42.273125,13.40723 41.52626,13.40723 40.7831,13.43313 Z"
-       id="path3747"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sccccccccss"
-       inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
-       inkscape:export-xdpi="89.999519"
-       inkscape:export-ydpi="89.999519" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer9"
-     inkscape:label="Level"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     inkscape:label="Marker"
+     style="display:inline">
     <g
-       inkscape:groupmode="layer"
-       id="layer13"
-       inkscape:label="level4"
-       style="display:inline"
-       sodipodi:insensitive="true">
+       id="g3480">
       <path
-         style="fill:#ff0000;fill-opacity:1;stroke:none"
-         d="m 40.787322,13.42658 c -11.11411,0.39599 -21.38296,6.82806 -25.15626,15.53866 -2.64865,5.1411 -1.91783,10.8873 0.0446,16.08818 5.64668,15.91023 14.15123,30.98751 22.56297,45.98545 0.80936,1.40871 1.63467,2.81177 2.5426,4.1787 1.19293,3.29505 3.05669,0.80254 3.91321,-1.19192 7.76124,-13.32147 15.05923,-26.85477 21.2633,-40.73538 3.15718,-7.60914 7.01194,-16.09873 3.20765,-24.06608 -3.65352,-9.1496 -14.56855,-15.72235 -26.14573,-15.79563 -0.74673,-0.0284 -1.49139,-0.0284 -2.23234,-0.002 z"
-         id="path3613"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="sccccccccss"
-         inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+         transform="matrix(1.0343968,0,0,0.96062923,-159.82445,-100.50064)"
+         inkscape:export-ydpi="89.999519"
          inkscape:export-xdpi="89.999519"
-         inkscape:export-ydpi="89.999519" />
-    </g>
-    <g
-       inkscape:groupmode="layer"
-       id="layer12"
-       inkscape:label="level3"
-       style="display:inline"
-       sodipodi:insensitive="true">
-      <path
-         style="fill:#ff7f2a;fill-opacity:1;stroke:none"
-         d="m 40.787667,13.42653 c -11.11155,0.39599 -21.37804,6.82806 -25.15048,15.53867 -2.64804,5.1411 -1.91739,10.8873 0.0446,16.08819 5.64538,15.91024 14.14798,30.98753 22.55779,45.98548 0.80917,1.40871 1.63429,2.81177 2.54202,4.1787 1.19265,3.29505 3.05598,0.80254 3.91231,-1.19192 7.75946,-13.32148 15.05577,-26.85479 21.25841,-40.73541 3.15646,-7.60914 7.01033,-16.09874 3.20692,-24.06609 -3.65268,-9.14961 -14.56521,-15.72236 -26.13973,-15.79564 -0.74656,-0.0284 -1.49105,-0.0284 -2.23183,-0.002 z"
-         id="path3645"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="sccccccccss"
          inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
-         inkscape:export-xdpi="89.999519"
-         inkscape:export-ydpi="89.999519" />
-    </g>
-    <g
-       inkscape:groupmode="layer"
-       id="layer11"
-       inkscape:label="level2"
-       style="display:inline"
-       sodipodi:insensitive="true">
-      <path
-         style="fill:#92b857;fill-opacity:1;stroke:none"
-         d="m 40.78766,13.42653 c -11.11154,0.39599 -21.37803,6.82806 -25.15048,15.53867 -2.64804,5.1411 -1.91738,10.8873 0.0446,16.08819 5.64539,15.91024 14.14798,30.98753 22.55779,45.98548 0.80918,1.40871 1.63429,2.81177 2.54202,4.1787 1.19265,3.29505 3.05599,0.80254 3.91232,-1.19192 C 52.45337,80.70417 59.74967,67.17086 65.95232,53.29024 69.10878,45.6811 72.96265,37.1915 69.15924,29.22415 65.50656,20.07454 54.59402,13.50179 43.01951,13.42851 c -0.74656,-0.0284 -1.49106,-0.0284 -2.23184,-0.002 z"
-         id="path3677"
-         inkscape:connector-curvature="0"
          sodipodi:nodetypes="sccccccccss"
-         inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
-         inkscape:export-xdpi="89.999519"
-         inkscape:export-ydpi="89.999519" />
-    </g>
-    <g
-       inkscape:groupmode="layer"
-       id="layer10"
-       inkscape:label="level1"
-       style="display:inline"
-       sodipodi:insensitive="true">
-      <path
-         style="fill:#a0892c;fill-opacity:1;stroke:none"
-         d="m 40.787662,13.42653 c -11.11154,0.39599 -21.37803,6.82806 -25.15048,15.53867 -2.64804,5.1411 -1.91738,10.8873 0.0446,16.08819 5.64538,15.91024 14.14798,30.98753 22.55779,45.98548 0.80917,1.40871 1.63429,2.81177 2.54202,4.1787 1.19265,3.29505 3.05599,0.80254 3.91231,-1.19192 7.75947,-13.32148 15.05577,-26.85479 21.25841,-40.73541 3.15647,-7.60914 7.01033,-16.09874 3.20693,-24.06609 -3.65268,-9.14961 -14.56522,-15.72236 -26.13974,-15.79564 -0.74655,-0.0284 -1.49105,-0.0284 -2.23183,-0.002 z"
-         id="path3709"
          inkscape:connector-curvature="0"
-         sodipodi:nodetypes="sccccccccss"
-         inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
-         inkscape:export-xdpi="89.999519"
-         inkscape:export-ydpi="89.999519" />
-    </g>
-    <g
-       inkscape:groupmode="layer"
-       id="layer8"
-       inkscape:label="level0"
-       style="display:inline"
-       sodipodi:insensitive="true">
+         id="path3739"
+         d="m 193.9452,118.52245 c -10.71295,0.41173 -20.61117,7.09944 -24.2483,16.15625 -2.55303,5.34545 -1.84859,11.32003 0.043,16.72763 5.44287,16.54259 13.64047,32.21912 21.74861,47.81315 0.78015,1.46471 1.57566,2.92353 2.45082,4.34479 1.14987,3.426 2.94637,0.83444 3.77199,-1.23929 7.48111,-13.85094 14.51569,-27.92212 20.49584,-42.35444 3.04322,-7.91155 6.75884,-16.73856 3.09187,-25.02259 -3.52165,-9.51328 -14.04274,-16.34724 -25.20206,-16.42343 -0.71978,-0.0295 -1.43757,-0.0295 -2.15178,-0.002 z"
+         style="opacity:0.62000008;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99556303;filter:url(#filter5342-4)" />
       <path
-         style="display:inline;fill:#808080;fill-opacity:1;stroke:none"
+         inkscape:export-ydpi="89.999519"
+         inkscape:export-xdpi="89.999519"
+         inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+         sodipodi:nodetypes="sccccccccss"
+         inkscape:connector-curvature="0"
+         id="path3747"
+         d="m 40.78314,13.43317 c -11.14684,0.3888 -21.445993,6.70379 -25.230429,15.25586 -2.656447,5.04752 -1.923464,10.68914 0.04471,15.79536 5.663313,15.62065 14.192954,30.42351 22.629511,45.14846 0.811757,1.38307 1.639475,2.7606 2.550084,4.10265 1.196452,3.23506 3.065714,0.78793 3.924771,-1.17022 C 52.48591,79.48627 59.80542,66.1993 66.027797,52.5713 69.194261,45.10068 73.060389,36.76561 69.244902,28.94327 65.580598,19.96018 54.633362,13.50708 43.022053,13.43513 42.273125,13.40723 41.52626,13.40723 40.7831,13.43313 Z"
+         style="display:inline;opacity:0.22000002;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98682094" />
+      <path
+         inkscape:label="#path3741"
+         inkscape:export-ydpi="89.999519"
+         inkscape:export-xdpi="89.999519"
+         inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+         sodipodi:nodetypes="sccccccccss"
+         inkscape:connector-curvature="0"
+         id="clr0obj1"
          d="m 40.78767,13.42653 c -11.111545,0.39599 -21.378034,6.82806 -25.150481,15.53867 -2.64804,5.1411 -1.917385,10.8873 0.04459,16.08819 5.645383,15.91024 14.147982,30.98753 22.55779,45.98548 0.809173,1.40871 1.63429,2.81177 2.542023,4.1787 1.192649,3.29505 3.055982,0.80254 3.912312,-1.19192 C 52.453367,80.70417 59.749668,67.17086 65.952313,53.29024 69.108778,45.6811 72.962642,37.1915 69.159236,29.22415 65.506555,20.07454 54.59402,13.50179 43.019504,13.42851 c -0.746558,-0.0284 -1.491052,-0.0284 -2.231833,-0.002 z"
-         id="path3741"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="sccccccccss"
-         inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+         style="display:inline;fill:#7f00ff;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:export-ydpi="89.999519"
          inkscape:export-xdpi="89.999519"
-         inkscape:export-ydpi="89.999519" />
+         inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3743"
+         d="m 41.882772,14.04698 c 0,0 -16.111991,-1.80413 -25.699037,15.09524 -2.705774,4.99437 -1.959186,10.57658 0.0456,15.62904 7.27918,19.85424 17.429538,36.08886 26.421639,50.68749 C 38.946377,72.1826 41.882756,14.04698 41.882756,14.04698 Z"
+         style="display:inline;opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:url(#linearGradient3749);stroke-width:1.02111745;stroke-opacity:0.27810651" />
+      <circle
+         r="18"
+         inkscape:export-ydpi="89.999519"
+         inkscape:export-xdpi="89.999519"
+         inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
+         cy="38.941071"
+         cx="42.329647"
+         id="ellipse3745"
+         style="display:inline;fill:#000000;fill-opacity:0.37869825;fill-rule:evenodd;stroke:url(#linearGradient3751);stroke-width:1.01374114;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer5"
-     inkscape:label="Marker-upper"
-     style="display:inline"
-     sodipodi:insensitive="true">
-    <path
-       style="display:inline;opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:url(#linearGradient3749);stroke-width:1.02111745;stroke-opacity:0.27810651"
-       d="m 41.882772,14.04698 c 0,0 -16.111991,-1.80413 -25.699037,15.09524 -2.705774,4.99437 -1.959186,10.57658 0.0456,15.62904 7.27918,19.85424 17.429538,36.08886 26.421639,50.68749 C 38.946377,72.1826 41.882756,14.04698 41.882756,14.04698 Z"
-       id="path3743"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc"
-       inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
-       inkscape:export-xdpi="89.999519"
-       inkscape:export-ydpi="89.999519" />
-    <circle
-       style="display:inline;fill:#000000;fill-opacity:0.37869825;fill-rule:evenodd;stroke:url(#linearGradient3751);stroke-width:1.01374114;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="ellipse3745"
-       cx="42.329647"
-       cy="38.941071"
-       inkscape:export-filename="C:\Work\GIT\ocm-system\App\images\icons\map\set4_level2.png"
-       inkscape:export-xdpi="89.999519"
-       inkscape:export-ydpi="89.999519"
-       r="18" />
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4648"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion4650"><rect
+           id="rect4652"
+           width="55.122025"
+           height="220.4881"
+           x="519.0061"
+           y="78.180725" /></flowRegion><flowPara
+         id="flowPara4654" /></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer6"
@@ -495,8 +577,7 @@
        inkscape:groupmode="layer"
        id="layer2"
        inkscape:label="private"
-       style="display:inline"
-       sodipodi:insensitive="true">
+       style="display:inline">
       <g
          style="display:inline"
          id="g5239-5"
@@ -520,8 +601,7 @@
        inkscape:groupmode="layer"
        id="layer1"
        inkscape:label="operational"
-       style="display:inline"
-       sodipodi:insensitive="true">
+       style="display:inline">
       <path
          sodipodi:nodetypes="ccccccc"
          inkscape:connector-curvature="0"
