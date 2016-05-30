@@ -14,10 +14,12 @@ try:
 except:
     sys.exit('lxml wrapper for libxml2 is required. Please download and install the latest version from https://pypi.python.org/pypi/lxml/, or install it through your package manager')
 
+print ("folder:"+ os.pardir)
+
 # Set paths
 INKSCAPE_CMD = "inkscape"
 INPUT_FILE  = os.path.join(os.pardir, 'map-markers', 'map_marker_template.svg')
-OUTPUT_FOLDER = os.path.join(os.pardir, 'map-markers', '') # Should this be build-output?
+OUTPUT_FOLDER = os.path.join(os.pardir, 'build-output/map-markers', '') # Should this be build-output?
 
 def export_layers(src, dest, show):
     """
