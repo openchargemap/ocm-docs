@@ -1,0 +1,17 @@
+USE [OCM_Live]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[procArchiveEditQueueItems]
+AS
+BEGIN
+
+INSERT INTO EditQueueItemArchive
+SELECT * from EditQueueItem WHERE DateProcessed<GETUTCDATE()-90
+
+DELETE FROM EditQueueItem WHERE ID IN (SELECT ID FROM EditQueueItemArchive)
+END
+
+GO
