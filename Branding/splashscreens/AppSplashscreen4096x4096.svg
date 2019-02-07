@@ -126,7 +126,7 @@
     <g
        style="display:inline;filter:url(#filter3818);enable-background:new"
        id="g3067"
-       transform="matrix(0,3.159387,-4.3033205,0,3643.8378,-2493.6928)"
+       transform="matrix(0,3.159387,-4.3033205,0,3680.2014,-2493.6928)"
        inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
        inkscape:export-xdpi="39.415569"
        inkscape:export-ydpi="39.415569">
@@ -180,7 +180,7 @@
     </g>
     <path
        style="display:inline;fill:none;stroke:#ffffff;stroke-width:50.1106987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter3818);enable-background:new"
-       d="m 2169.2386,-1326.0929 c 134.5214,-386.281 307.1874,103.7559 345.5686,-20.7743 41.8314,-135.7237 -144.2707,-165.3215 -27.9899,-233.6405 214.4545,-125.9994 -301.5548,-86.7517 -400.5485,-80.3791 -98.9935,6.3724 -202.6597,23.384 -299.8433,46.6651 -388.7346,93.1249 -643.5108,276.8293 -262.7776,285.5923 1196.0371,27.5282 -128.9592,-558.5791 564.9591,-631.3167"
+       d="m 2205.6022,-1326.0929 c 134.5214,-386.281 307.1874,103.7559 345.5686,-20.7743 41.8314,-135.7237 -144.2707,-165.3215 -27.9899,-233.6405 214.4545,-125.9994 -301.5548,-86.7517 -400.5485,-80.3791 -98.9935,6.3724 -202.6597,23.384 -299.8433,46.6651 -388.7346,93.1249 -643.5108,276.8293 -262.7776,285.5923 1196.0371,27.5282 -128.9592,-558.5791 564.9591,-631.3167"
        id="path4050"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csssssc"
@@ -192,7 +192,7 @@
        id="rect3004"
        width="682.75604"
        height="557.45056"
-       x="2154.5166"
+       x="2190.8801"
        y="-1746.7139"
        rx="19.910191"
        inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
@@ -201,7 +201,7 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04480553px;line-height:0%;font-family:'Roboto thin';-inkscape-font-specification:'Roboto thin, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.00373387;enable-background:new"
-       x="1159.1443"
+       x="1195.1338"
        y="-1035.2422"
        id="text3861-1-1"
        inkscape:export-xdpi="39.415569"
@@ -210,35 +210,35 @@
        inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"><tspan
          sodipodi:role="line"
          id="tspan3863-7-7"
-         x="1159.1443"
+         x="1195.1338"
          y="-1035.2422"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:192px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:start;letter-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.00373387">Open Charge Map</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:24.04480553px;line-height:0%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.00373387"
-       x="2699.9475"
+       x="2736.2095"
        y="-826.46051"
        id="text2999"
        transform="scale(1.0028018,0.99720603)"><tspan
          sodipodi:role="line"
          id="tspan3846"
-         x="2699.9475"
+         x="2736.2095"
          y="-826.46051"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:96.17922211px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:2.00373387">the global registry of</tspan><tspan
          sodipodi:role="line"
-         x="2699.9475"
+         x="2736.2095"
          y="-706.23651"
          id="tspan3848"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:96.17922211px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:2.00373387">electric vehicle charging</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:24.04480553px;line-height:0%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#dde9af;fill-opacity:1;stroke:none;stroke-width:2.00373387"
-       x="2697.9355"
+       x="2734.1975"
        y="-475.715"
        id="text2999-8"
        transform="scale(1.0028018,0.99720603)"><tspan
          sodipodi:role="line"
-         x="2697.9355"
+         x="2734.1975"
          y="-475.715"
          id="tspan3848-4"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:96.17922211px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#dde9af;stroke-width:2.00373387">openchargemap.org</tspan></text>
