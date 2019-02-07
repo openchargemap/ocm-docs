@@ -14,7 +14,7 @@
    height="2048"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    sodipodi:docname="AppSplashscreenMosaic480x800.svg"
    inkscape:export-filename="C:\Temp\GIT\ocm-docs\Branding\build-output\splashscreens\AppSplashscreen_2048x2048.png"
    inkscape:export-xdpi="90"
@@ -51,10 +51,10 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="715"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1920"
+     inkscape:window-height="997"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
      inkscape:window-maximized="1"
      showguides="false"
      inkscape:guide-bbox="true">
@@ -68,15 +68,18 @@
     <sodipodi:guide
        orientation="1,0"
        position="-1165,222.5"
-       id="guide3006" />
+       id="guide3006"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="-195.83333,514.58333"
-       id="guide3008" />
+       id="guide3008"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="423.94595,1245.6389"
-       id="guide3854" />
+       id="guide3854"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -86,7 +89,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -214,11 +217,10 @@
        rx="6.4419084" />
     <text
        xml:space="preserve"
-       style="font-size:218.83708191px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Roboto;-inkscape-font-specification:Roboto Ultra-Light"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'.Apple Color Emoji UI';-inkscape-font-specification:'.Apple Color Emoji UI';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;enable-background:new;"
        x="564.79602"
        y="-22.334742"
        id="text3861-1-1"
-       sodipodi:linespacing="125%"
        inkscape:export-xdpi="39.415569"
        inkscape:export-ydpi="39.415569"
        transform="scale(1.0075716,0.9924853)"
@@ -227,36 +229,34 @@
          id="tspan3863-7-7"
          x="564.79602"
          y="-22.334742"
-         style="font-size:104.01543427px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto Ultra-Light">Open Charge Map</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:104.01543427px;line-height:125%;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;letter-spacing:8.02999988px">Open Charge Map</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:48.39609909px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto Light"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none"
        x="1378.9015"
        y="78.146935"
-       id="text2999"
-       sodipodi:linespacing="125%"><tspan
+       id="text2999"><tspan
          sodipodi:role="line"
          id="tspan3846"
          x="1378.9015"
          y="78.146935"
-         style="font-size:49.22159576px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Roboto;-inkscape-font-specification:Roboto Light">the global registry of</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:49.22159576px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;writing-mode:lr-tb;text-anchor:end">the global registry of</tspan><tspan
          sodipodi:role="line"
          x="1378.9015"
          y="139.67393"
          id="tspan3848"
-         style="font-size:49.22159576px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Roboto;-inkscape-font-specification:Roboto Light">electric vehicle charging</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:49.22159576px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;writing-mode:lr-tb;text-anchor:end">electric vehicle charging</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:48.39609909px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Roboto;-inkscape-font-specification:Roboto Light"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
        x="1373.373"
        y="380.58438"
-       id="text2999-8"
-       sodipodi:linespacing="125%"><tspan
+       id="text2999-8"><tspan
          sodipodi:role="line"
          x="1373.373"
          y="380.58438"
          id="tspan3848-4"
-         style="font-size:49.22159576px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Roboto;-inkscape-font-specification:Roboto Light">openchargemap.org</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:49.22159576px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;writing-mode:lr-tb;text-anchor:end">openchargemap.org</tspan></text>
   </g>
   <g
      inkscape:label="Layer 1"
