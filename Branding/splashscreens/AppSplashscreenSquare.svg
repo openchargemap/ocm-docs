@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1880"
+   height="1880"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="AppSplashscreenSquare.svg"
+   inkscape:export-filename="/Users/chris/GIT/ocm-app/resources/splash.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs4">
+    <filter
+       id="filter3075"
+       inkscape:label="Cross-smooth"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur inner borders and intersections"
+       width="1.25"
+       x="-0.11"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3077"
+         stdDeviation="2" />
+      <feColorMatrix
+         id="feColorMatrix3079"
+         result="fbSourceGraphic"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -2.5 " />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#d66666"
+     borderopacity="0.28627451"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.11"
+     inkscape:cx="1214.0568"
+     inkscape:cy="976.73588"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:pagecheckerboard="false"
+     showborder="true"
+     inkscape:showpageshadow="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3809"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       dotted="true"
+       originx="-1063.436"
+       originy="-1390.5553" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="-2228.436,-1168.0553"
+       id="guide3006"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-1259.2694,-875.97199"
+       id="guide3008"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="-639.49009,-144.91642"
+       id="guide3854"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1225.0187,2929.2243"
+       orientation="0,1"
+       id="guide4563"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Background"
+     style="display:inline"
+     transform="translate(-1063.436,2470.5553)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer"
+     transform="translate(-1063.436,2218.1931)"
+     style="display:inline">
+    <rect
+       style="opacity:1;fill:#59881b;fill-opacity:1;stroke:none;stroke-width:0.91796887;filter:url(#filter3057)"
+       id="rect3012"
+       width="1880"
+       height="1880"
+       x="1063.436"
+       y="-2218.1931"
+       inkscape:export-xdpi="209.16"
+       inkscape:export-ydpi="209.16"
+       inkscape:export-filename="C:\Work\GIT\ocm-docs\Branding\build-output\splashscreens\AppSplashscreen_4096x4096.png" />
+    <g
+       style="display:inline;filter:url(#filter3818);enable-background:new"
+       id="g3067"
+       transform="matrix(0,3.159387,-4.3033205,0,3680.2014,-2493.6928)"
+       inkscape:export-filename="C:\Work\GIT\ocm-docs\Branding\build-output\splashscreens\AppSplashscreen_4096x4096.png"
+       inkscape:export-xdpi="209.16"
+       inkscape:export-ydpi="209.16">
+      <rect
+         inkscape:export-ydpi="23.85018"
+         inkscape:export-xdpi="23.85018"
+         inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
+         rx="0"
+         y="333.18683"
+         x="133.6156"
+         height="23.00773"
+         width="68.76815"
+         id="rect2985"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         ry="0" />
+      <rect
+         inkscape:export-ydpi="23.85018"
+         inkscape:export-xdpi="23.85018"
+         inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
+         rx="2.5294065"
+         y="296.22369"
+         x="148.77216"
+         height="33.16901"
+         width="13.239948"
+         id="rect2987-1-7"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         ry="0" />
+      <rect
+         inkscape:export-ydpi="23.85018"
+         inkscape:export-xdpi="23.85018"
+         inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
+         rx="0"
+         y="346.08652"
+         x="129.91159"
+         height="17.068363"
+         width="75.978706"
+         id="rect2985-4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         ry="0"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3876"
+         width="13.239948"
+         height="33.16901"
+         x="176.50909"
+         y="296.5657"
+         rx="2.5294065"
+         inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding_100px.png"
+         inkscape:export-xdpi="23.85018"
+         inkscape:export-ydpi="23.85018" />
+    </g>
+    <path
+       style="display:inline;fill:none;stroke:#ffffff;stroke-width:50.1106987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter3818);enable-background:new"
+       d="m 2205.6022,-1326.0929 c 134.5214,-386.281 307.1874,103.7559 345.5686,-20.7743 41.8314,-135.7237 -144.2707,-165.3215 -27.9899,-233.6405 214.4545,-125.9994 -301.5548,-86.7517 -400.5485,-80.3791 -98.9935,6.3724 -202.6597,23.384 -299.8433,46.6651 -388.7346,93.1249 -643.5108,276.8293 -262.7776,285.5923 1196.0371,27.5282 -128.9592,-558.5791 564.9591,-631.3167"
+       id="path4050"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssssc"
+       inkscape:export-filename="C:\Work\GIT\ocm-docs\Branding\build-output\splashscreens\AppSplashscreen_4096x4096.png"
+       inkscape:export-xdpi="209.16"
+       inkscape:export-ydpi="209.16" />
+    <rect
+       style="display:inline;fill:#1a1a1a;fill-opacity:0;stroke:none;stroke-width:2.00373387;enable-background:new"
+       id="rect3004"
+       width="682.75604"
+       height="557.45056"
+       x="2190.8801"
+       y="-1746.7139"
+       rx="19.910191"
+       inkscape:export-filename="C:\Work\GIT\ocm-docs\Branding\build-output\splashscreens\AppSplashscreen_4096x4096.png"
+       inkscape:export-xdpi="209.16"
+       inkscape:export-ydpi="209.16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.04480553px;line-height:0%;font-family:'Roboto thin';-inkscape-font-specification:'Roboto thin, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.00373387;enable-background:new"
+       x="1195.1338"
+       y="-1035.2422"
+       id="text3861-1-1"
+       inkscape:export-xdpi="209.16"
+       inkscape:export-ydpi="209.16"
+       transform="scale(1.0103946,0.98971233)"
+       inkscape:export-filename="C:\Work\GIT\ocm-docs\Branding\build-output\splashscreens\AppSplashscreen_4096x4096.png"><tspan
+         sodipodi:role="line"
+         id="tspan3863-7-7"
+         x="1195.1338"
+         y="-1035.2422"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:192px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:start;letter-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.00373387">Open Charge Map</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:24.04480553px;line-height:0%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.00373387"
+       x="2736.2095"
+       y="-826.46051"
+       id="text2999"
+       transform="scale(1.0028018,0.99720603)"
+       inkscape:export-xdpi="209.16"
+       inkscape:export-ydpi="209.16"
+       inkscape:export-filename="C:\Work\GIT\ocm-docs\Branding\build-output\splashscreens\AppSplashscreen_4096x4096.png"><tspan
+         sodipodi:role="line"
+         id="tspan3846"
+         x="2736.2095"
+         y="-826.46051"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:96.17922211px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:2.00373387">the global registry of</tspan><tspan
+         sodipodi:role="line"
+         x="2736.2095"
+         y="-706.23651"
+         id="tspan3848"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:96.17922211px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:2.00373387">electric vehicle charging</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:24.04480553px;line-height:0%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#dde9af;fill-opacity:1;stroke:none;stroke-width:2.00373387"
+       x="2734.1975"
+       y="-475.715"
+       id="text2999-8"
+       transform="scale(1.0028018,0.99720603)"
+       inkscape:export-xdpi="209.16"
+       inkscape:export-ydpi="209.16"
+       inkscape:export-filename="C:\Work\GIT\ocm-docs\Branding\build-output\splashscreens\AppSplashscreen_4096x4096.png"><tspan
+         sodipodi:role="line"
+         x="2734.1975"
+         y="-475.715"
+         id="tspan3848-4"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:96.17922211px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#dde9af;stroke-width:2.00373387">openchargemap.org</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot847"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'.Damascus PUA';-inkscape-font-specification:'.Damascus PUA';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(0,-995.63779)"><flowRegion
+         id="flowRegion849"><rect
+           id="rect851"
+           width="281.81818"
+           height="47.727272"
+           x="925"
+           y="1059.3636" /></flowRegion><flowPara
+         id="flowPara853" /></flowRoot>  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1063.436,2218.1931)"
+     style="display:inline" />
+</svg>

@@ -9,15 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="200"
+   width="800"
    height="200"
    id="svg2"
    version="1.1"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="AppIcon.svg"
-   inkscape:export-filename="C:\Temp\SVN\openchargemap\trunk\Applications\App\images\icons\AppIcon_512x512_flat.png"
-   inkscape:export-xdpi="230.39999"
-   inkscape:export-ydpi="230.39999">
+   sodipodi:docname="AppIcon_Text.svg"
+   inkscape:export-filename="C:\Work\GIT\ocm-docs\Branding\app-icons\heading.png"
+   inkscape:export-xdpi="54.617886"
+   inkscape:export-ydpi="54.617886">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -27,15 +27,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2432572"
-     inkscape:cx="-32.379203"
+     inkscape:zoom="0.25"
+     inkscape:cx="477.46364"
      inkscape:cy="61.480587"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="-8"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -80,21 +80,19 @@
      id="layer1"
      transform="translate(0,-852.36221)"
      style="display:inline">
-    <path
-       sodipodi:type="arc"
-       style="fill:#8cc63f;fill-opacity:1;stroke:none;display:inline;filter:url(#filter3818);enable-background:new"
+    <ellipse
+       style="display:inline;fill:#8cc63f;fill-opacity:1;stroke:none;filter:url(#filter3818);enable-background:new"
        id="path3789"
-       sodipodi:cx="522.67126"
-       sodipodi:cy="198.71207"
-       sodipodi:rx="151.1859"
-       sodipodi:ry="139.95496"
-       d="m 673.85716,198.71207 a 151.1859,139.95496 0 1 1 -302.37179,0 151.1859,139.95496 0 1 1 302.37179,0 z"
        transform="matrix(0.63497986,0,0,0.68593498,-232.56198,816.32105)"
        inkscape:export-filename="C:\Temp\SVNTemp\openchargemap\trunk\Applications\Website\images\branding.png"
        inkscape:export-xdpi="39.415569"
-       inkscape:export-ydpi="39.415569" />
+       inkscape:export-ydpi="39.415569"
+       cx="522.67126"
+       cy="198.71207"
+       rx="151.1859"
+       ry="139.95496" />
     <rect
-       style="fill:#1a1a1a;fill-opacity:0;stroke:none;display:inline;enable-background:new"
+       style="display:inline;fill:#1a1a1a;fill-opacity:0;stroke:none;enable-background:new"
        id="rect3004"
        width="239.95547"
        height="197.01608"
@@ -109,29 +107,39 @@
        transform="matrix(0.70535069,0,0,0.70535069,25.657395,885.73307)">
       <path
          id="path3007"
-         d="m 147.25985,2.3031495 0,42.9094475 -16.15749,0 0,-42.9094475 z"
+         d="M 147.25985,2.3031495 V 45.212597 H 131.10236 V 2.3031495 Z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
          inkscape:connector-curvature="0" />
       <path
          id="path3009"
-         d="m 173.23229,11.763779 0,8.255906 -23.31496,0 0,-8.255906 z"
+         d="m 173.23229,11.763779 v 8.255906 h -23.31496 v -8.255906 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
          inkscape:connector-curvature="0" />
       <path
          id="path3011"
-         d="m 138.18898,0 0,47.409448 -11.97638,0 0,-47.409448 z"
+         d="M 138.18898,0 V 47.409448 H 126.2126 V 0 Z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
          inkscape:connector-curvature="0" />
       <path
          id="path3013"
-         d="m 172.98426,29.09055 0,8.255906 -23.27953,0 0,-8.255906 z"
+         d="m 172.98426,29.09055 v 8.255906 H 149.70473 V 29.09055 Z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
          inkscape:connector-curvature="0" />
       <path
          id="path3015"
          d="m 140.59843,149.56299 c 21.9685,-76.322834 50.17323,20.48031 56.44488,-4.11024 6.83858,-26.82283 -23.56299,-32.66929 -4.57087,-46.169288 35.00788,-24.874015 -49.25197,-17.114173 -65.40945,-15.874015 -16.19291,1.27559 -33.094484,4.641732 -48.9685,9.212598 C 14.598425,111.04724 -27.035434,147.3307 35.149607,149.03149 230.49213,154.48819 14.102362,38.728345 127.41733,24.342519"
-         style="fill:none;stroke:#ffffff;stroke-width:8.96456718px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:none;stroke:#ffffff;stroke-width:8.96456718px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          inkscape:connector-curvature="0" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e6e6e6;fill-opacity:1;stroke:none;"
+       x="213.05876"
+       y="966.52844"
+       id="text5209"><tspan
+         sodipodi:role="line"
+         id="tspan5207"
+         x="213.05876"
+         y="966.52844">Open Charge Map</tspan></text>
   </g>
 </svg>
