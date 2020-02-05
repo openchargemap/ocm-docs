@@ -1,6 +1,6 @@
 
 **OCM Site Data Model**
-
+# Note: this document contains propsed future data model changes not currently implemented.
 
 ## 1. Summary
 
