@@ -1,12 +1,9 @@
 --remove unnecessary or sensitive data for distribution of database to interested parties
-DECLARE @DBName nvarchar(100)='OCM_Export'
-
-USE OCM_Export
-
 TRUNCATE TABLE AuditLog
 TRUNCATE TABLE EditQueueItem
 TRUNCATE TABLE UserSubscription
 TRUNCATE TABLE UserChargingRequest
+TRUNCATE TABLE SessionState
 TRUNCATE TABLE [RegisteredApplication]
 
 --UPDATE [User] SET Identifier=SUBSTRING(HASHBYTES('SHA1', Identifier),0,16), Username=SUBSTRING(HASHBYTES('SHA1', Username),0,16), CurrentSessionToken='****Anon****', DateLastLogin=NULL,EmailAddress='anon@openchargemap.org', Location=NULL, APIKey=NULL, Latitude=NULL, Longitude=NULL
