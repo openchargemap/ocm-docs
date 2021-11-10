@@ -19,19 +19,9 @@ paths:
       tags: []
       responses:
         '200':
-          description: OK
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/POI'
+          $ref: '#/components/responses/POI'
       operationId: get-poi
       parameters:
-        - schema:
-            type: boolean
-          in: query
-          name: verbose
         - schema:
             type: string
             default: json
@@ -56,20 +46,22 @@ paths:
           description: 2-character ISO Country code to filter to one specific country
         - schema:
             type: array
-            items: {}
+            items:
+              type: string
+            example: 'US,GB'
           in: query
           name: countryid
           description: Exact match on a given numeric country id (comma separated list)
         - schema:
-            type: number
+            type: integer
           in: query
           name: latitude
-          description: Latitude reference for distance calculation and filtering
+          description: Latitude for distance calculation and filtering
         - schema:
             type: number
           in: query
           name: longitude
-          description: Longitude reference for distance calculation and filtering
+          description: Longitude for distance calculation and filtering
         - schema:
             type: number
           in: query
@@ -81,7 +73,93 @@ paths:
           in: query
           name: distanceunit
           description: '`miles` or `km` distance unit'
-      description: Used to fetch a list of POIs (sites) within a geographic boundary or near a specific latitude/longitude. This is the primary method for most applications and services to consume date from Open Charge Map.
+        - schema:
+            type: array
+            example: '1,2,3'
+          in: query
+          name: operatorid
+          description: Exact match on a given EVSE operator id (comma separated list)
+        - schema:
+            type: array
+            example: '1,2,3'
+          in: query
+          name: connectiontypeid
+          description: Exact match on a given connection type id (comma separated list)
+        - schema:
+            type: array
+            example: '1,2,3'
+          in: query
+          name: levelid
+          description: Exact match on a given charging level (1-3) id (comma separated list)
+          deprecated: true
+        - schema:
+            type: array
+            example: '1,2,3'
+          in: query
+          name: usagetypeid
+          description: Exact match on a given usage type id (comma separated list)
+        - schema:
+            type: array
+            example: '1,2,3'
+          in: query
+          name: statustypeid
+          description: Exact match on a given status type id (comma separated list)
+        - schema:
+            type: array
+          in: query
+          name: dataproviderid
+          description: 'Exact match on a given data provider id id (comma separated list). '
+        - schema:
+            type: boolean
+          in: query
+          name: opendata
+          description: Use opendata=true for only OCM provided ("Open") data.
+        - schema:
+            type: boolean
+            default: 'false'
+          in: query
+          name: includecomments
+          description: 'If true, user comments and media items will be include in result set'
+        - schema:
+            type: boolean
+            default: 'true'
+          in: query
+          name: verbose
+          description: Set to false to get a smaller result set with null items removed.
+        - schema:
+            type: boolean
+            default: 'false'
+          in: query
+          name: compact
+          description: Set to true to remove reference data objects from output (just returns IDs for common reference data such as DataProvider etc).
+        - schema:
+            type: boolean
+            default: 'false'
+          in: query
+          name: camelcase
+          description: Set to true to get a property names in camelCase format.
+        - schema:
+            type: string
+          in: query
+          name: chargepointid
+          description: Exact match on a given OCM POI ID (comma separated list)
+        - schema:
+            type: array
+          in: query
+          name: boundingbox
+          description: 'Filter results to a given bounding box. specify top left and bottom right box corners as: (lat,lng),(lat2,lng2)'
+        - schema:
+            type: string
+          in: query
+          name: polygon
+          description: Filter results within a given Polygon. Specify an encoded polyline for the polygon shape. Polygon will be automatically closed from the last point to the first point.
+        - schema:
+            type: string
+          in: query
+          name: polyline
+          description: 'Filter results along an encoded polyline, use with distance param to increase search distance along line. Polyline is expanded into a polygon to cover the search distance.'
+      description: Used to fetch a list of POIs (sites) within a geographic boundary or near a specific latitude/longitude. This is the primary method for most applications and services to consume data from Open Charge Map.
+      x-internal: false
     parameters: []
   /referencedata:
     get:
@@ -99,6 +177,245 @@ paths:
         Returns the core reference data used for looking up IDs such as Connection Types, Operators, Countries etc. 
 
         This information is useful for UIs such as editing systems or for fetching results in the lighter non-verbose mode, then hydrating POI results back into complex objects.
+      parameters:
+        - schema:
+            type: array
+          in: query
+          description: 'Optional filter on countryid, exact match on a given numeric country id (comma separated list)'
+          name: countryid
+    parameters: []
+  /profile/authenticate:
+    post:
+      summary: Authenticate User
+      operationId: post-authenticate
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                description: ''
+                type: object
+                x-examples:
+                  example-1:
+                    Data:
+                      UserProfile:
+                        ID: 1000
+                        Username: Joe Bloggs
+                        Profile: "Example person who uses open charge map \U0001F918"
+                        Location: 'San Francisco, US'
+                        WebsiteURL: 'https://openchargemap.org'
+                        ReputationPoints: 2008
+                        Permissions: '{"Permissions":[{"Level":100},{"Level":1000}],"LegacyPermissions":"[CountryLevel_Editor=All];[Administrator=true];"}'
+                        DateCreated: '2011-09-28T15:11:00'
+                        DateLastLogin: '2021-11-09T07:49:00'
+                        IsProfilePublic: true
+                        Latitude: -31
+                        Longitude: 115
+                        EmailAddress: example@example.com
+                        EmailHash: null
+                        ProfileImageURL: 'https://www.gravatar.com/avatar/e3e76940eb5e85220db216603ee6b00f?s=80&d=robohash'
+                      access_token: eXampleJwt.AccessTOKEN
+                    Metadata:
+                      StatusCode: 200
+                properties:
+                  Data:
+                    type: object
+                    required:
+                      - UserProfile
+                      - access_token
+                    properties:
+                      UserProfile:
+                        $ref: '#/components/schemas/UserProfile'
+                      access_token:
+                        type: string
+                        minLength: 1
+                        description: JWT Bearer Token to use in subsequent authenticated requests
+                  Metadata:
+                    type: object
+                    required:
+                      - StatusCode
+                    properties:
+                      StatusCode:
+                        type: integer
+                required:
+                  - Data
+                  - Metadata
+      description: 'Perform user authentication, returning a model which includes the users profile and a JWT auth token to re-use in subsequent requests.'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                emailaddress:
+                  type: string
+                password:
+                  type: string
+            examples:
+              example-1:
+                value:
+                  emailaddress: string
+                  password: string
+        description: ''
+    parameters: []
+  /comment:
+    post:
+      summary: Submit Comment or Checkin
+      operationId: post-comment
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                description: ''
+                type: object
+                properties:
+                  status:
+                    type: string
+                    minLength: 1
+                  description:
+                    type: string
+                    minLength: 1
+                required:
+                  - status
+                  - description
+                x-examples:
+                  example-1:
+                    status: OK
+                    description: OK
+              examples:
+                example-response:
+                  value:
+                    status: OK
+                    description: OK
+        '400':
+          description: Bad Request
+      description: Submit a user comment or checkin for a specific charging location
+      security:
+        - UserAuthentication: []
+      requestBody:
+        content:
+          application/json:
+            schema:
+              description: ''
+              type: object
+              x-examples:
+                example-1:
+                  ChargePointID: 12345
+                  CommentTypeID: 10
+                  UserName: A. Nickname
+                  Comment: 'This place is awesome, free cake for EV owners!'
+                  Rating: 5
+                  RelatedURL: 'http://awesomevplace.com'
+                  CheckinStatusTypeID: 0
+              properties:
+                chargePointID:
+                  type: integer
+                  description: This must be a valid POI ID
+                commentTypeID:
+                  type: integer
+                  description: This must be a valid Comment Type ID as per UserCommentTypes found in Core Reference Data. If left as null then General Comment will be used.
+                userName:
+                  type: string
+                  minLength: 1
+                  description: 'This is an optional name to associate with the submission, for authenticated users their profile username is used.'
+                  maxLength: 100
+                comment:
+                  type: string
+                  minLength: 1
+                  maxLength: 4000
+                  description: 'This is an optional comment to describe the charging experience, may include guidance for future users.'
+                rating:
+                  type: integer
+                  example: 3
+                  description: 'Optional integer rating between 1 = Worst, 5 = Best.'
+                relatedURL:
+                  type: string
+                  minLength: 1
+                  description: Optional website URL for related information
+                  maxLength: 500
+                checkinStatusTypeID:
+                  type: integer
+                  description: Optional valid CheckStatusTypeID to indicate overall catgeory and success/failure to use equipment e.g. 10 = Charged Successfully.
+              required:
+                - chargePointID
+            examples:
+              example-1:
+                value:
+                  chargePointID: 0
+                  commentTypeID: 0
+                  userName: string
+                  comment: string
+                  rating: 3
+                  relatedURL: string
+                  checkinStatusTypeID: 0
+  /mediaitem:
+    post:
+      summary: Add Media Item (Photo)
+      operationId: post-mediaitem
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                description: ''
+                type: object
+                x-examples:
+                  example-1:
+                    chargePointID: 156185
+                    comment: Test
+                    imageDataBase64: 'data:image/jpeg;base64,EXAMPLEBASE64ENCODEDJPEGORPNG'
+                properties:
+                  status:
+                    type: string
+                    description: status code OK
+                  description:
+                    type: string
+                required:
+                  - status
+              examples:
+                example-response:
+                  value:
+                    status: OK
+                    description: OK
+      description: Submit a photo for a specific charging location
+      security:
+        - UserAuthentication: []
+      requestBody:
+        content:
+          application/json:
+            schema:
+              description: ''
+              type: object
+              x-examples:
+                example-1:
+                  chargePointID: 0
+                  comment: string
+                  imageDataBase64: string
+              properties:
+                chargePointID:
+                  type: integer
+                  description: ID value for the OCM site (POI) this image relates to.
+                comment:
+                  type: string
+                  minLength: 1
+                  description: Optional description of image or context
+                imageDataBase64:
+                  type: string
+                  minLength: 1
+                  description: BASE64 encoded data
+              required:
+                - chargePointID
+                - imageDataBase64
+            examples:
+              example-media-upload:
+                value:
+                  chargePointID: 1234
+                  comment: An example comment
+                  imageDataBase64: 'data:image/jpeg;base64,<BASE64_ENCODED_DATA>'
 components:
   schemas:
     POI:
@@ -453,11 +770,11 @@ components:
         IsOpenDataLicensed:
           type: boolean
           description: 'If true, data provider uses an Open Data license'
-          example: null - true
+          example: true
         IsApprovedImport:
           type: boolean
           description: 'If false, data may not be imported for this provider.'
-          example: null - true
+          example: true
         License:
           type: string
           description: Summary of the licensing which applies for this Data Provider. Each Data Provider has one specific license or agreement. Usage of the data requires acceptance of the given license.
@@ -467,7 +784,7 @@ components:
           type: string
           format: date-time
           description: Date and time (UTC) the last import was performed for this data provider (if an import).
-          example: 'null - ''2020-02-04T23:09:00Z'''
+          example: '2020-02-04T23:09:00Z'
         ID:
           type: integer
           description: The reference ID for this Data Provider
@@ -840,12 +1157,12 @@ components:
           pattern: ^(.*)$
         IsDiscontinued:
           type: boolean
-          description: If true, this is an discontinued but used connection type
+          description: 'If true, this is an discontinued but used connection type'
           default: false
           example: false
         IsObsolete:
           type: boolean
-          description: If true, this is an obsolete connection type and is unlikely top be present in modern infrastructure
+          description: 'If true, this is an obsolete connection type and is unlikely top be present in modern infrastructure'
           default: false
           example: false
         ID:
@@ -867,7 +1184,6 @@ components:
         Comments:
           type: string
           example: 'Over 2 kW, usually non-domestic socket type'
-
         IsFastChargeCapable:
           type: boolean
           description: 'If true, this level is considered ''fast'' charging, relative to other levels.'
@@ -1074,17 +1390,182 @@ components:
         Title:
           type: string
       description: 'Category for a user comment, e.g. General Comment, Fault Report (Notice To Users And Operator)'
+    AuthenticationResult:
+      description: ''
+      type: object
+      x-examples:
+        example-1:
+          Data:
+            UserProfile:
+              ID: 1000
+              Username: Joe Bloggs
+              Profile: "Example person who uses open charge map \U0001F918"
+              Location: 'San Francisco, US'
+              WebsiteURL: 'https://openchargemap.org'
+              ReputationPoints: 2008
+              Permissions: '{"Permissions":[{"Level":100},{"Level":1000}],"LegacyPermissions":"[CountryLevel_Editor=All];[Administrator=true];"}'
+              DateCreated: '2011-09-28T15:11:00'
+              DateLastLogin: '2021-11-09T07:49:00'
+              IsProfilePublic: true
+              Latitude: -31
+              Longitude: 115
+              EmailAddress: example@example.com
+              EmailHash: null
+              ProfileImageURL: 'https://www.gravatar.com/avatar/e3e76940eb5e85220db216603ee6b00f?s=80&d=robohash'
+            access_token: eXampleJwt.AccessTOKEN
+          Metadata:
+            StatusCode: 200
+      properties:
+        Data:
+          type: object
+          required:
+            - UserProfile
+            - access_token
+          properties:
+            UserProfile:
+              type: object
+              required:
+                - ID
+                - Username
+                - Profile
+                - Location
+                - WebsiteURL
+                - ReputationPoints
+                - Permissions
+                - DateCreated
+                - DateLastLogin
+                - IsProfilePublic
+                - Latitude
+                - Longitude
+                - EmailAddress
+                - ProfileImageURL
+              properties:
+                ID:
+                  type: number
+                Username:
+                  type: string
+                  minLength: 1
+                Profile:
+                  type: string
+                  minLength: 1
+                Location:
+                  type: string
+                  minLength: 1
+                WebsiteURL:
+                  type: string
+                  minLength: 1
+                ReputationPoints:
+                  type: number
+                Permissions:
+                  type: string
+                  minLength: 1
+                DateCreated:
+                  type: string
+                  minLength: 1
+                DateLastLogin:
+                  type: string
+                  minLength: 1
+                IsProfilePublic:
+                  type: boolean
+                Latitude:
+                  type: number
+                Longitude:
+                  type: number
+                EmailAddress:
+                  type: string
+                  minLength: 1
+                EmailHash: {}
+                ProfileImageURL:
+                  type: string
+                  minLength: 1
+            access_token:
+              type: string
+              minLength: 1
+        Metadata:
+          type: object
+          required:
+            - StatusCode
+          properties:
+            StatusCode:
+              type: number
+      required:
+        - Data
+        - Metadata
+    UserProfile:
+      description: 'Full user profile, including non-public fields such as Email Address'
+      type: object
+      x-examples:
+        example-userprofile:
+          ID: 1000
+          Username: Joe Bloggs
+          Profile: "Example Open Charge Map user. \U0001F918"
+          Location: 'San Francisco, US'
+          WebsiteURL: 'https://openchargemap.org'
+          ReputationPoints: 2008
+          Permissions: '{"Permissions":[{"Level":100},{"Level":1000}],"LegacyPermissions":"[CountryLevel_Editor=All];[Administrator=true];"}'
+          DateCreated: '2011-09-28T15:11:00'
+          DateLastLogin: '2021-11-09T07:49:00'
+          IsProfilePublic: true
+          Latitude: -31
+          Longitude: 115
+          EmailAddress: example@example.com
+          ProfileImageURL: 'https://www.gravatar.com/avatar/examplef?s=80&d=robohash'
+      properties:
+        ID:
+          type: number
+        Username:
+          type: string
+          minLength: 1
+        Profile:
+          type: string
+          minLength: 1
+        Location:
+          type: string
+          minLength: 1
+        WebsiteURL:
+          type: string
+          minLength: 1
+        ReputationPoints:
+          type: number
+        Permissions:
+          type: string
+          minLength: 1
+        DateCreated:
+          type: string
+          minLength: 1
+        DateLastLogin:
+          type: string
+          minLength: 1
+        IsProfilePublic:
+          type: boolean
+        Latitude:
+          type: number
+        Longitude:
+          type: number
+        EmailAddress:
+          type: string
+          minLength: 1
+        ProfileImageURL:
+          type: string
+          minLength: 1
+      required:
+        - ID
+        - Username
+        - DateCreated
+        - IsProfilePublic
   securitySchemes:
-    test:
+    APIKeyQueryString:
       name: key
       type: apiKey
       in: query
       description: API Key supplied as query string parameter
-    example:
+    APIKeyHeader:
       name: X-API-Key
       type: apiKey
       in: header
-      description: API Key supplied as X-API-Key http header
+    UserAuthentication:
+      type: http
+      scheme: bearer
   responses:
     POI:
       description: List of POIs (sites) with associated equipment summary information.
@@ -1248,8 +1729,187 @@ components:
                 DataQualityLevel: 1
                 DateCreated: '2021-11-07T16:36:00Z'
                 SubmissionStatusTypeID: 200
-         
+              - ID: 148527
+                UUID: 4C524AA1-3413-4D56-804C-480304FEB0FB
+                UserComments:
+                  - ID: string
+                    ChargePointID: 0
+                    CommentTypeID: 0
+                    CommentType:
+                      ID: 0
+                      Title: string
+                    UserName: string
+                    Comment: string
+                    RelatedURL: string
+                    DateCreated: '2019-08-24T14:15:22Z'
+                    User:
+                      ID: 0
+                      Username: string
+                      ReputationPoints: 0
+                      ProfileImageURL: string
+                    CheckinStatusTypeID: 0
+                    CheckinStatusType:
+                      ID: 0
+                      Title: string
+                      IsAutomatedCheckin: true
+                      IsPositive: true
+                MediaItems:
+                  - ID: string
+                    ChargePointID: string
+                    ItemURL: string
+                    ItemThumbnailURL: string
+                    Comment: string
+                    IsEnabled: true
+                    IsVideo: true
+                    IsFeaturedItem: true
+                    IsExternalResource: true
+                    User:
+                      ID: 0
+                      Username: string
+                      ReputationPoints: 0
+                      ProfileImageURL: string
+                    DateCreated: string
+                IsRecentlyVerified: true
+                DateLastVerified: '2020-02-04T06:33:00Z'
+                ParentChargePointID: 0
+                DataProviderID: 1
+                DataProvidersReference: string
+                OperatorID: 3
+                OperatorsReference: PG-84306
+                UsageTypeID: 4
+                UsageCost: See network operators app for current charges
+                AddressInfo:
+                  ID: 148879
+                  AddressLine1: Buttsgrove Way
+                  AddressLine2: null
+                  Town: Huntingdon
+                  StateOrProvince: string
+                  Postcode: PE29 1PE
+                  CountryID: 1
+                  Country:
+                    ID: 1
+                    ISOCode: GB
+                    ContinentCode: EU
+                    Title: United Kingdom
+                  Latitude: 52.343197
+                  Longitude: -0.170632
+                  ContactTelephone1: null
+                  ContactTelephone2: null
+                  ContactEmail: string
+                  AccessComments: string
+                  RelatedURL: null
+                  Distance: null
+                  DistanceUnit: 1
+                  Title: string
+                Connections:
+                  - ID: 206241
+                    ConnectionTypeID: 25
+                    ConnectionType:
+                      FormalName: IEC 62196-2 Type 2
+                      IsDiscontinued: false
+                      IsObsolete: false
+                      ID: 25
+                      Title: Type 2 (Socket Only)
+                    Reference: null
+                    StatusTypeID: 50
+                    StatusType:
+                      IsOperational: true
+                      IsUserSelectable: true
+                      ID: 50
+                      Title: Operational
+                    LevelID: 2
+                    Level:
+                      ID: 2
+                      Title: 'Level 2 : Medium (Over 2kW)'
+                      Comments: 'Over 2 kW, usually non-domestic socket type'
+                      IsFastChargeCapable: true
+                    Amps: 32
+                    Voltage: 230
+                    PowerKW: 7.4
+                    CurrentTypeID: 10
+                    CurrentType:
+                      ID: 10
+                      Title: AC (Single-Phase)
+                    Quantity: 2
+                    Comments: string
+                NumberOfPoints: 2
+                GeneralComments: 'This is an open charge unit installed at the Coneygear Centre at Buttsgrove Way, Huntingdon'
+                DatePlanned: '2020-02-04T06:33:00Z'
+                DateLastConfirmed: '2020-02-04T06:33:00Z'
+                StatusTypeID: 50
+                DateLastStatusUpdate: '2020-02-04T06:33:00Z'
+                MetadataValues:
+                  - null
+                DataQualityLevel: 5
+                DateCreated: '2020-02-04T06:33:00Z'
+                SubmissionStatusTypeID: 200
+                DataProvider:
+                  WebsiteURL: 'https://openchargemap.org'
+                  Comments: string
+                  DataProviderStatusType:
+                    IsProviderEnabled: true
+                    ID:
+                      - 1
+                    description:
+                      - Manual Data Entry
+                  IsRestrictedEdit: false
+                  IsOpenDataLicensed: null - true
+                  IsApprovedImport: null - true
+                  License: Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+                  DateLastImported: 'null - ''2020-02-04T23:09:00Z'''
+                  ID: 1
+                  Title: Open Charge Map Contributors
+                OperatorInfo:
+                  WebsiteURL: 'http://www.pod-point.com/'
+                  Comments: null
+                  PhonePrimaryContact: null
+                  PhoneSecondaryContact: null
+                  IsPrivateIndividual: false
+                  AddressInfo:
+                    ID: 148879
+                    AddressLine1: Buttsgrove Way
+                    AddressLine2: null
+                    Town: Huntingdon
+                    StateOrProvince: string
+                    Postcode: PE29 1PE
+                    CountryID: 1
+                    Country:
+                      ID: 1
+                      ISOCode: GB
+                      ContinentCode: EU
+                      Title: United Kingdom
+                    Latitude: 52.343197
+                    Longitude: -0.170632
+                    ContactTelephone1: null
+                    ContactTelephone2: null
+                    ContactEmail: string
+                    AccessComments: string
+                    RelatedURL: null
+                    Distance: null
+                    DistanceUnit: 1
+                    Title: string
+                  BookingURL: string
+                  ContactEmail: enquiries@pod-point.com
+                  FaultReportEmail: enquiries@pod-point.com
+                  IsRestrictedEdit: true
+                  ID: 0
+                  Title: POD Point (UK)
+                UsageType:
+                  IsPayAtLocation: true
+                  IsMembershipRequired: true
+                  IsAccessKeyRequired: true
+                  ID: 0
+                  Title: Public - Membership Required
+                StatusType:
+                  IsOperational: true
+                  IsUserSelectable: true
+                  ID: 50
+                  Title: Operational
+                SubmissionStatus:
+                  ID: 200
+                  Title: string
+                  IsLive: false
       headers: {}
 security:
-  - example: []
-  - test: []
+  - APIKeyQueryString: []
+  - APIKeyHeader: []
