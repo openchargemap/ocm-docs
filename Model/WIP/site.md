@@ -1,10 +1,10 @@
 
 **OCM Site Data Model**
-# Note: this document contains propsed future data model changes not currently implemented.
+# Note: this document contains proposed future data model changes not currently implemented.
 
 ## 1. Summary
 
-The Site model defines a group of one or more EVSE (Electric Vehilce Supply Equipment) present in a geographic location. 
+The Site model defines a group of one or more EVSE (Electric Vehicle Supply Equipment) present in a geographic location. 
 
 The purpose of this information is to:
 - Provide electric vehicle drivers with information to plan their immediate and future journeys.
@@ -46,8 +46,8 @@ All fields should be treated as nullable and optional until otherwise specified.
 | DateLastVerified                  | datetime              | Date information was last confirmed accurate by an OCM user        |
 | DateModified                  	| datetime              | Date this site or any related info was last updated        |
 | SubmissionStatusTypeID            | integer               | OCM Submission Status Type ID           |
-| EquipmentSummary                  | EquipmentSummary      | Deprecated summary level information. Superceded by SupplyEquipment info where available and may be computed from SupplyEquipment information for compatibility.|
-| SupplyEquipment                   | SupplyEquipment (list)| Details of EVSE present at site, with specific addressable connector information |
+| **EquipmentSummary**              | EquipmentSummary      | Deprecated summary level information. Superceded by SupplyEquipment info where available and may be computed from SupplyEquipment information for compatibility.|
+| **SupplyEquipment**               | SupplyEquipment (list)| Details of EVSE present at site, with specific addressable connector information |
 | MetadataValues                    | MetadataValue (list) 	| Optional list of Metadata Values providing extended information     |
 
 
@@ -167,7 +167,7 @@ A SupplyEquipment object specifies information about a specific addressable phys
 | ID                                | integer           	| Unique ID for this EVSE in the Open Charge Map registry. 	|
 | OperatorID                 		| integer		       	| OCM ID for this Operator |
 | OperatorsReference                | string           		| Operators own reference for this equipment/unit	|
-| PhysicalTag                		| string           		| Uniqueu Identifier tag/number visible on device (if different to Operators Reference)	|
+| PhysicalTag                		| string           		| Unique Identifier tag/number visible on device (if different to Operators Reference)	|
 | Latitude                         	| float		       		| Latitude of physical location |
 | Longitude                         | float		       		| Longitude of physical location |
 | Comments                          | string		       	| General usage or access notes |
