@@ -414,6 +414,27 @@ paths:
                   chargePointID: 1234
                   comment: An example comment
                   imageDataBase64: 'data:image/jpeg;base64,<BASE64_ENCODED_DATA>'
+  /openapi:
+    get:
+      summary: Retrieve OpenAPI definition
+      tags: []
+      operationId: get-openapi
+      description: 'Retrieve the current OpenAPI format (YAML) definition for this API. This is useful for documentation tools, mocking, testing and client generation.'
+      responses:
+        '200':
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: object
+                properties: {}
+              examples:
+                example-response:
+                  value:
+                    openapi: 3.0.3
+                    info:
+                      title: Open Charge Map API
+                      version: '3.0'
 components:
   schemas:
     POI:
