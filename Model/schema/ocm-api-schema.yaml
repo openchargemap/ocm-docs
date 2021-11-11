@@ -444,10 +444,10 @@ paths:
 components:
   schemas:
     POI:
-      title: POI (Site)
+      title: POI
       type: object
       description: |-
-        A Site or POI (Point of Interest) is the top-level set of information regarding a geographic site with one or more electric vehicle charging equipment present. 
+        A POI (Point of Interest), also referred to as a `Site` or `ChargePoint`, is the top-level set of information regarding a geographic site with one or more electric vehicle charging equipment present. The term `ChargePointID` is used to reference the unique ID for each POI, as called OCM ID. This reference appears in various UI elements in the format `OCM-12345` to distinguish the ID number as being a reference for a specific POI/site.
 
         Note: If the API is called in verbose mode properties expanded properties are included in the results (e.g. UsageType, StatusType, DataProvider, OperatorInfo, SubmissionStatus).  With the exception of the AddressInfo property, other object properties will not be populated in a compact result set and instead only the associated reference IDs will be set (e.g. UsageTypeID, DataProviderID etc)
       properties:
@@ -472,7 +472,7 @@ components:
             $ref: '#/components/schemas/MediaItem'
         IsRecentlyVerified:
           type: boolean
-          description: A dynamically computed value indicating of any recenty confirmation activity has taken place for this site (positive check-ins etc)
+          description: A dynamically computed value indicating of any recently confirmation activity has taken place for this site (positive check-ins etc)
           default: false
           example: true
         DateLastVerified:
