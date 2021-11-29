@@ -1,6 +1,10 @@
-
-select count(1) as numPOI, DataProvider.Title from ChargePoint inner join DataProvider ON DataProvider.ID=ChargePoint.DataProviderID
+SELECT COUNT(1) as NumberOfPOIs, 
+	DataProvider.ID as DataProviderID,
+	DataProvider.Title,
+	DataProvider.IsOpenDataLicensed,
+	DataProvider.License
+FROM ChargePoint inner join DataProvider ON DataProvider.ID=ChargePoint.DataProviderID
 where SubmissionStatusTypeID IN (100,200)
---where DataProvider.DataProviderStatusTypeID not in(1,10,1000)
-group by DataProvider.ID,DataProvider.title
+
+group by DataProvider.ID,DataProvider.title, 	DataProvider.IsOpenDataLicensed, DataProvider.License
 
