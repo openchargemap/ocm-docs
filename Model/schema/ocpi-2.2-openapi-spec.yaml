@@ -4057,10 +4057,6 @@ components:
         country_code:
           type: string
     Image:
-      required:
-        - category
-        - type
-        - url
       type: object
       properties:
         url:
@@ -4082,9 +4078,15 @@ components:
         width:
           type: integer
           format: int32
+          nullable: true
         height:
           type: integer
           format: int32
+          nullable: true
+      required:
+        - url
+        - category
+        - type
     OcpiResponseCredentials:
       type: object
       properties:
@@ -4175,12 +4177,12 @@ components:
             - NEMA_10_30
             - NEMA_10_50
             - NEMA_14_30
-            - NEMA_14_50 
+            - NEMA_14_50
             - PANTOGRAPH_BOTTOM_UP
             - PANTOGRAPH_TOP_DOWN
             - TESLA_R
             - TESLA_S
-            - UNKNOWN #not part of official spec
+            - UNKNOWN
         format:
           type: string
           enum:
