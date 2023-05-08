@@ -4215,17 +4215,16 @@ components:
         last_updated:
           type: string
     Evse:
-      required:
-        - connectors
-        - last_updated
-        - status
-        - uid
       type: object
       properties:
         uid:
           type: string
+          description: |-
+            Uniquely identifies the EVSE within the CPOs platform (and
+            suboperator platforms).
         evse_id:
           type: string
+          nullable: true
         status:
           type: string
           enum:
@@ -4289,6 +4288,11 @@ components:
             $ref: '#/components/schemas/Image'
         last_updated:
           type: string
+      required:
+        - uid
+        - status
+        - connectors
+        - last_updated
     ExceptionalPeriod:
       required:
         - period_begin
