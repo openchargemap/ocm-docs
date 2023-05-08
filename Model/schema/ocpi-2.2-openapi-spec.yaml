@@ -4061,8 +4061,11 @@ components:
       properties:
         url:
           type: string
+          format: uri
         thumbnail:
           type: string
+          format: uri
+          nullable: true
         category:
           type: string
           enum:
