@@ -4317,16 +4317,6 @@ components:
         exceptional_closings:
           $ref: '#/components/schemas/ExceptionalPeriod'
     Location:
-      required:
-        - address
-        - city
-        - coordinates
-        - country
-        - country_code
-        - id
-        - last_updated
-        - party_id
-        - publish
       type: object
       properties:
         country_code:
@@ -4343,14 +4333,17 @@ components:
             $ref: '#/components/schemas/PublishTokenType'
         name:
           type: string
+          nullable: true
         address:
           type: string
         city:
           type: string
         postal_code:
           type: string
+          nullable: true
         state:
           type: string
+          nullable: true
         country:
           type: string
         coordinates:
@@ -4368,6 +4361,7 @@ components:
             - ON_DRIVEWAY
             - ON_STREET
             - UNDERGROUND_GARAGE
+          nullable: true
         evses:
           type: array
           items:
@@ -4421,6 +4415,16 @@ components:
           $ref: '#/components/schemas/EnergyMix'
         last_updated:
           type: string
+      required:
+        - country_code
+        - party_id
+        - id
+        - publish
+        - address
+        - city
+        - country
+        - coordinates
+        - last_updated
     OcpiResponseLocationList:
       type: object
       properties:
