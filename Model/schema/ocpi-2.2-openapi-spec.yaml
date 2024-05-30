@@ -4311,11 +4311,17 @@ components:
         twentyfourseven:
           type: boolean
         regular_hours:
-          $ref: '#/components/schemas/RegularHours'
+          type: array
+          items:
+            $ref: '#/components/schemas/RegularHours'
         exceptional_openings:
-          $ref: '#/components/schemas/ExceptionalPeriod'
+          type: array
+          items:
+            $ref: '#/components/schemas/ExceptionalPeriod'
         exceptional_closings:
-          $ref: '#/components/schemas/ExceptionalPeriod'
+          type: array
+          items:
+            $ref: '#/components/schemas/ExceptionalPeriod'
     Location:
       type: object
       properties:
@@ -4474,6 +4480,7 @@ components:
           type: string
         period_end:
           type: string
+      title: ''
     StatusSchedule:
       required:
         - period_begin
