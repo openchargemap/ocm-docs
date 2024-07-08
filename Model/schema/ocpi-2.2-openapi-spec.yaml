@@ -3504,7 +3504,6 @@ components:
     Price:
       required:
         - excl_vat
-        - incl_vat
       type: object
       properties:
         excl_vat:
