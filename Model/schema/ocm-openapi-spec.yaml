@@ -1,7 +1,7 @@
-openapi: 3.0.3
+openapi: 3.1.0
 info:
   title: Open Charge Map API
-  version: '3.0'
+  version: '3.1'
   termsOfService: 'https://openchargemap.org/site/about/terms'
   contact:
     name: Contact
@@ -132,7 +132,7 @@ paths:
           description: Set to true to remove reference data objects from output (just returns IDs for common reference data such as DataProvider etc).
         - schema:
             type: boolean
-            default: 'false'
+            default: false
           in: query
           name: camelcase
           description: Set to true to get a property names in camelCase format.
@@ -444,129 +444,6 @@ components:
         A POI (Point of Interest), also referred to as a `Site` or `ChargePoint`, is the top-level set of information regarding a geographic site with one or more electric vehicle charging equipment present. The term `ChargePointID` is used to reference the unique ID for each POI, as called OCM ID. This reference appears in various UI elements in the format `OCM-12345` to distinguish the ID number as being a reference for a specific POI/site.
 
         Note: If the API is called in verbose mode properties expanded properties are included in the results (e.g. UsageType, StatusType, DataProvider, OperatorInfo, SubmissionStatus).  With the exception of the AddressInfo property, other object properties will not be populated in a compact result set and instead only the associated reference IDs will be set (e.g. UsageTypeID, DataProviderID etc)
-      properties:
-        ID:
-          type: integer
-          description: The OCM reference ID for this POI (Point of Interest).
-          example: 148527
-        UUID:
-          type: string
-          description: 'A universally unique identifier used as surrogate key. ID and UUID must be preserved when submitting POI update information. '
-          example: 4C524AA1-3413-4D56-804C-480304FEB0FB
-          format: uuid
-        UserComments:
-          description: A list of user comments or check-ins for this site
-          type: array
-          items:
-            $ref: '#/components/schemas/UserComment'
-        MediaItems:
-          type: array
-          description: A list of user submitted photos for this site
-          items:
-            $ref: '#/components/schemas/MediaItem'
-        IsRecentlyVerified:
-          type: boolean
-          description: A dynamically computed value indicating of any recently confirmation activity has taken place for this site (positive check-ins etc)
-          default: false
-          example: true
-        DateLastVerified:
-          format: date-time
-          description: 'A dynamically computed value, the date and time (UTC, ISO 8601) this POI was last confirmed by a user edit or related user comment'
-          example: '2020-02-04T06:33:00Z'
-          type: string
-        ParentChargePointID:
-          type: integer
-          description: 'If present, this data in this POI supercedes information in another POI. Generally not relevant to consumers.'
-        DataProviderID:
-          type: integer
-          description: The reference ID for the Data Provider of this POI
-          example: 1
-        DataProvidersReference:
-          type: string
-          description: 'If present, this is the Data Providers own key for this POI within their source data set'
-        OperatorID:
-          type: integer
-          description: The reference ID of the equipment network operator or owner
-          default: 0
-          example: 3
-        OperatorsReference:
-          type: string
-          description: The network operators own reference for this site (may be a site reference or a single equipment reference)
-          example: PG-84306
-        UsageTypeID:
-          type: integer
-          description: 'The reference ID for the site Usage Type, 0 == Unknown'
-          default: 0
-          example: 4
-        UsageCost:
-          type: string
-          description: Free text description of likely usage costs associated with this site. Generally relates to parking charges whether network operates this site as Free
-          example: See network operators app for current charges
-        AddressInfo:
-          $ref: '#/components/schemas/AddressInfo'
-        Connections:
-          type: array
-          description: List of equipment summary information for this site
-          items:
-            $ref: '#/components/schemas/ConnectionInfo'
-        NumberOfPoints:
-          type: integer
-          description: The number of bays or discreet stations available overall at this site. This indicates the limiting for number of simultaneous site users.
-          default: 0
-          example: 2
-        GeneralComments:
-          type: string
-          description: General additional factual information for the POI. Users are discouraged from using this field for opinions on site quality etc.
-          default: ''
-          example: 'This is an open charge unit installed at the Coneygear Centre at Buttsgrove Way, Huntingdon'
-        DatePlanned:
-          type: string
-          format: date-time
-          description: 'The date and time (UTC, ISO 8601) this POI is or was planned for commissioning. In general planned POIs should not be presented to end users until confirmed operational.'
-          example: '2020-02-04T06:33:00Z'
-        DateLastConfirmed:
-          type: string
-          format: date-time
-          description: 'The date and time (UTC, ISO 8601) this POI was last confirmed according to the data provider or a user. See DateLastVerified for a dynamically computed date based on multiple signals.'
-          example: '2020-02-04T06:33:00Z'
-        StatusTypeID:
-          type: integer
-          description: The overall operational status type reference ID for this POI (i.e. Operational etc). 0 == Unknown
-          default: 0
-          example: 50
-        DateLastStatusUpdate:
-          type: string
-          format: date-time
-          description: 'The date and time (UTC, ISO 8601) this POI or directly related child properties were updated.'
-          example: '2020-02-04T06:33:00Z'
-        MetadataValues:
-          type: array
-          description: 'Optional array of metadata values. Generally used to indicate data attribution but is also intended for future use to indicate surrounding amenties, links or foreign key values into other data sets.'
-          items: {}
-        DataQualityLevel:
-          type: integer
-          description: A metric applied during imports to indicate a quality level based on available information detail (5 == best). Largely unused currently.
-          example: 5
-        DateCreated:
-          type: string
-          format: date-time
-          description: 'The date and time (UTC, ISO 8601) this POI was added to the Open Charge Map database'
-          example: '2020-02-04T06:33:00Z'
-        SubmissionStatusTypeID:
-          type: integer
-          description: The reference ID for the submission status type which applied to this POI.
-          default: 0
-          example: 200
-        DataProvider:
-          $ref: '#/components/schemas/DataProvider'
-        OperatorInfo:
-          $ref: '#/components/schemas/OperatorInfo'
-        UsageType:
-          $ref: '#/components/schemas/UsageType'
-        StatusType:
-          $ref: '#/components/schemas/StatusType'
-        SubmissionStatus:
-          $ref: '#/components/schemas/SubmissionStatusType'
       x-examples:
         Example POI Results:
           ID: 148527
@@ -745,6 +622,309 @@ components:
             IsLive: true
             ID: 200
             description: Submission Published
+      properties:
+        ID:
+          type: integer
+          description: The OCM reference ID for this POI (Point of Interest).
+          example: 148527
+        UUID:
+          type: string
+          description: 'A universally unique identifier used as surrogate key. ID and UUID must be preserved when submitting POI update information. '
+          example: 4C524AA1-3413-4D56-804C-480304FEB0FB
+          format: uuid
+        UserComments:
+          description: A list of user comments or check-ins for this site
+          type: array
+          items:
+            $ref: '#/components/schemas/UserComment'
+        MediaItems:
+          type: array
+          description: A list of user submitted photos for this site
+          items:
+            $ref: '#/components/schemas/MediaItem'
+        IsRecentlyVerified:
+          type: boolean
+          description: A dynamically computed value indicating of any recently confirmation activity has taken place for this site (positive check-ins etc)
+          default: false
+          example: true
+        DateLastVerified:
+          format: date-time
+          description: 'A dynamically computed value, the date and time (UTC, ISO 8601) this POI was last confirmed by a user edit or related user comment'
+          example: '2020-02-04T06:33:00Z'
+          type: string
+        ParentChargePointID:
+          type: integer
+          description: 'If present, this data in this POI supercedes information in another POI. Generally not relevant to consumers.'
+        DataProviderID:
+          type: integer
+          description: The reference ID for the Data Provider of this POI
+          example: 1
+        DataProvidersReference:
+          type: string
+          description: 'If present, this is the Data Providers own key for this POI within their source data set'
+        OperatorID:
+          type: integer
+          description: The reference ID of the equipment network operator or owner
+          default: 0
+          example: 3
+        OperatorsReference:
+          type: string
+          description: The network operators own reference for this site (may be a site reference or a single equipment reference)
+          example: PG-84306
+        UsageTypeID:
+          type: integer
+          description: 'The reference ID for the site Usage Type, 0 == Unknown'
+          default: 0
+          example: 4
+        UsageCost:
+          type: string
+          description: Free text description of likely usage costs associated with this site. Generally relates to parking charges whether network operates this site as Free
+          example: See network operators app for current charges
+        AddressInfo:
+          $ref: '#/components/schemas/AddressInfo'
+        Connections:
+          type: array
+          description: List of equipment summary information for this site
+          items:
+            $ref: '#/components/schemas/ConnectionInfo'
+        NumberOfPoints:
+          type: integer
+          description: The number of bays or discreet stations available overall at this site. This indicates the limiting for number of simultaneous site users.
+          default: 0
+          example: 2
+        GeneralComments:
+          type: string
+          description: General additional factual information for the POI. Users are discouraged from using this field for opinions on site quality etc.
+          example: 'This is an open charge unit installed at the Coneygear Centre at Buttsgrove Way, Huntingdon'
+        DatePlanned:
+          type: string
+          format: date-time
+          description: 'The date and time (UTC, ISO 8601) this POI is or was planned for commissioning. In general planned POIs should not be presented to end users until confirmed operational.'
+          example: '2020-02-04T06:33:00Z'
+        DateLastConfirmed:
+          type: string
+          format: date-time
+          description: 'The date and time (UTC, ISO 8601) this POI was last confirmed according to the data provider or a user. See DateLastVerified for a dynamically computed date based on multiple signals.'
+          example: '2020-02-04T06:33:00Z'
+        StatusTypeID:
+          type: integer
+          description: The overall operational status type reference ID for this POI (i.e. Operational etc). 0 == Unknown
+          default: 0
+          example: 50
+        DateLastStatusUpdate:
+          type: string
+          format: date-time
+          description: 'The date and time (UTC, ISO 8601) this POI or directly related child properties were updated.'
+          example: '2020-02-04T06:33:00Z'
+        MetadataValues:
+          type: array
+          description: 'Optional array of metadata values. Generally used to indicate data attribution but is also intended for future use to indicate surrounding amenties, links or foreign key values into other data sets.'
+          items: {}
+        DataQualityLevel:
+          type: integer
+          description: A metric applied during imports to indicate a quality level based on available information detail (5 == best). Largely unused currently.
+          example: 5
+        DateCreated:
+          type: string
+          format: date-time
+          description: 'The date and time (UTC, ISO 8601) this POI was added to the Open Charge Map database'
+          example: '2020-02-04T06:33:00Z'
+        SubmissionStatusTypeID:
+          type: integer
+          description: The reference ID for the submission status type which applied to this POI.
+          default: 0
+          example: 200
+        DataProvider:
+          $ref: '#/components/schemas/DataProvider'
+        OperatorInfo:
+          $ref: '#/components/schemas/OperatorInfo'
+        UsageType:
+          $ref: '#/components/schemas/UsageType'
+        StatusType:
+          $ref: '#/components/schemas/StatusType'
+        SubmissionStatus:
+          $ref: '#/components/schemas/SubmissionStatusType'
+      examples:
+        - ID: 148527
+          UUID: 4C524AA1-3413-4D56-804C-480304FEB0FB
+          UserComments:
+            - ID: string
+              ChargePointID: 0
+              CommentTypeID: 0
+              CommentType:
+                ID: 0
+                Title: string
+              UserName: string
+              Comment: string
+              RelatedURL: string
+              DateCreated: '2019-08-24T14:15:22Z'
+              User:
+                ID: 0
+                Username: string
+                ReputationPoints: 0
+                ProfileImageURL: string
+              CheckinStatusTypeID: 0
+              CheckinStatusType:
+                ID: 0
+                Title: string
+                IsAutomatedCheckin: true
+                IsPositive: true
+          MediaItems:
+            - ID: string
+              ChargePointID: string
+              ItemURL: string
+              ItemThumbnailURL: string
+              Comment: string
+              IsEnabled: true
+              IsVideo: true
+              IsFeaturedItem: true
+              IsExternalResource: true
+              User:
+                ID: 0
+                Username: string
+                ReputationPoints: 0
+                ProfileImageURL: string
+              DateCreated: string
+          IsRecentlyVerified: true
+          DateLastVerified: '2020-02-04T06:33:00Z'
+          ParentChargePointID: 0
+          DataProviderID: 1
+          DataProvidersReference: string
+          OperatorID: 3
+          OperatorsReference: PG-84306
+          UsageTypeID: 4
+          UsageCost: See network operators app for current charges
+          AddressInfo:
+            ID: 148879
+            AddressLine1: Buttsgrove Way
+            AddressLine2: null
+            Town: Huntingdon
+            StateOrProvince: string
+            Postcode: PE29 1PE
+            CountryID: 1
+            Country:
+              ID: 1
+              ISOCode: GB
+              ContinentCode: EU
+              Title: United Kingdom
+            Latitude: 52.343197
+            Longitude: -0.170632
+            ContactTelephone1: null
+            ContactTelephone2: null
+            ContactEmail: string
+            AccessComments: string
+            RelatedURL: null
+            Distance: null
+            DistanceUnit: 1
+            Title: string
+          Connections:
+            - ID: 206241
+              ConnectionTypeID: 25
+              ConnectionType:
+                FormalName: IEC 62196-2 Type 2
+                IsDiscontinued: false
+                IsObsolete: false
+                ID: 25
+                Title: Type 2 (Socket Only)
+              Reference: null
+              StatusTypeID: 50
+              StatusType:
+                IsOperational: true
+                IsUserSelectable: true
+                ID: 50
+                Title: Operational
+              LevelID: 2
+              Level:
+                ID: 2
+                Title: 'Level 2 : Medium (Over 2kW)'
+                Comments: 'Over 2 kW, usually non-domestic socket type'
+                IsFastChargeCapable: true
+              Amps: 32
+              Voltage: 230
+              PowerKW: 7.4
+              CurrentTypeID: 10
+              CurrentType:
+                ID: 10
+                Title: AC (Single-Phase)
+              Quantity: 2
+              Comments: string
+          NumberOfPoints: 2
+          GeneralComments: 'This is an open charge unit installed at the Coneygear Centre at Buttsgrove Way, Huntingdon'
+          DatePlanned: '2020-02-04T06:33:00Z'
+          DateLastConfirmed: '2020-02-04T06:33:00Z'
+          StatusTypeID: 50
+          DateLastStatusUpdate: '2020-02-04T06:33:00Z'
+          MetadataValues:
+            - null
+          DataQualityLevel: 5
+          DateCreated: '2020-02-04T06:33:00Z'
+          SubmissionStatusTypeID: 200
+          DataProvider:
+            WebsiteURL: 'https://openchargemap.org'
+            Comments: string
+            DataProviderStatusType:
+              IsProviderEnabled: true
+              ID:
+                - 1
+              description:
+                - Manual Data Entry
+            IsRestrictedEdit: false
+            IsOpenDataLicensed: true
+            IsApprovedImport: true
+            License: Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+            DateLastImported: '2020-02-04T23:09:00Z'
+            ID: 1
+            Title: Open Charge Map Contributors
+          OperatorInfo:
+            WebsiteURL: 'http://www.pod-point.com/'
+            Comments: null
+            PhonePrimaryContact: null
+            PhoneSecondaryContact: null
+            IsPrivateIndividual: false
+            AddressInfo:
+              ID: 148879
+              AddressLine1: Buttsgrove Way
+              AddressLine2: null
+              Town: Huntingdon
+              StateOrProvince: string
+              Postcode: PE29 1PE
+              CountryID: 1
+              Country:
+                ID: 1
+                ISOCode: GB
+                ContinentCode: EU
+                Title: United Kingdom
+              Latitude: 52.343197
+              Longitude: -0.170632
+              ContactTelephone1: null
+              ContactTelephone2: null
+              ContactEmail: string
+              AccessComments: string
+              RelatedURL: null
+              Distance: null
+              DistanceUnit: 1
+              Title: string
+            BookingURL: string
+            ContactEmail: enquiries@pod-point.com
+            FaultReportEmail: enquiries@pod-point.com
+            IsRestrictedEdit: true
+            ID: 0
+            Title: POD Point (UK)
+          UsageType:
+            IsPayAtLocation: true
+            IsMembershipRequired: true
+            IsAccessKeyRequired: true
+            ID: 0
+            Title: Public - Membership Required
+          StatusType:
+            IsOperational: true
+            IsUserSelectable: true
+            ID: 50
+            Title: Operational
+          SubmissionStatus:
+            ID: 200
+            Title: string
+            IsLive: false
     DataProvider:
       type: object
       description: A Data Provider is the controller of the source data set used to construct the details for this POI. Data has been transformed and interpreted from it's original form. Each Data Provider provides data either by an explicit license or agreement.
@@ -1171,7 +1351,7 @@ components:
         FormalName:
           type: string
           description: Formal (standard) name for this connection type
-          default: null
+          default: ''
           example: IEC 62196-2 Type 2
           pattern: ^(.*)$
         IsDiscontinued:

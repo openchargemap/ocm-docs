@@ -1,4 +1,4 @@
-openapi: 3.0.1
+openapi: 3.1.0
 info:
   title: Open Charge Point Interface (OCPI) 2.2
   version: '2.2'
@@ -4133,14 +4133,6 @@ components:
         name:
           $ref: '#/components/schemas/DisplayText'
     Connector:
-      required:
-        - format
-        - id
-        - last_updated
-        - max_amperage
-        - max_voltage
-        - power_type
-        - standard
       type: object
       properties:
         id:
@@ -4214,6 +4206,14 @@ components:
           type: string
         last_updated:
           type: string
+      required:
+        - id
+        - standard
+        - format
+        - power_type
+        - max_voltage
+        - max_amperage
+        - last_updated
     Evse:
       type: object
       properties:
@@ -4293,6 +4293,7 @@ components:
         - status
         - connectors
         - last_updated
+      description: ''
     ExceptionalPeriod:
       required:
         - period_begin
