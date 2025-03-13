@@ -4195,6 +4195,10 @@ components:
         max_amperage:
           type: integer
           format: int32
+          description: |-
+            Maximum amperage of the connector, in ampere [A].
+
+            OCM allows null here due to operators commonly leaving it blank
         max_electric_power:
           type: integer
           format: int32
@@ -4212,7 +4216,6 @@ components:
         - format
         - power_type
         - max_voltage
-        - max_amperage
         - last_updated
     Evse:
       type: object
@@ -4256,6 +4259,7 @@ components:
               - REMOTE_START_STOP_CAPABLE
               - RESERVABLE
               - RFID_READER
+              - START_SESSION_CONNECTOR_REQUIRED
               - TOKEN_GROUP_CAPABLE
               - UNLOCK_CAPABLE
         connectors:
@@ -4293,7 +4297,6 @@ components:
         - status
         - connectors
         - last_updated
-      description: ''
     ExceptionalPeriod:
       required:
         - period_begin
