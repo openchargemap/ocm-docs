@@ -4193,7 +4193,9 @@ components:
           type: integer
           format: int32
         max_amperage:
-          type: integer
+          type:
+            - integer
+            - 'null'
           format: int32
           description: |-
             Maximum amperage of the connector, in ampere [A].
