@@ -51,7 +51,7 @@ paths:
           name: countryid
           description: Exact match on a given numeric country id (comma separated list)
         - schema:
-            type: integer
+            type: number
           in: query
           name: latitude
           description: Latitude for distance calculation and filtering
@@ -439,6 +439,7 @@ components:
   schemas:
     POI:
       title: POI
+      x-go-name: ChargePoint
       type: object
       description: |-
         A POI (Point of Interest), also referred to as a `Site` or `ChargePoint`, is the top-level set of information regarding a geographic site with one or more electric vehicle charging equipment present. The term `ChargePointID` is used to reference the unique ID for each POI, as called OCM ID. This reference appears in various UI elements in the format `OCM-12345` to distinguish the ID number as being a reference for a specific POI/site.
@@ -449,7 +450,7 @@ components:
           ID: 148527
           UUID: 4C524AA1-3413-4D56-804C-480304FEB0FB
           UserComments:
-            - ID: string
+            - ID: 0
               ChargePointID: 0
               CommentTypeID: 0
               CommentType: {}
@@ -466,8 +467,8 @@ components:
               CheckinStatusType: {}
               '': string
           MediaItems:
-            - ID: string
-              ChargePointID: string
+            - ID: int
+              ChargePointID: int
               ItemURL: string
               ItemThumbnailURL: string
               Comment: string
@@ -1233,7 +1234,7 @@ components:
       description: A user comment or check-in for a specific charging point (POI/Site)
       properties:
         ID:
-          type: string
+          type: integer
         ChargePointID:
           type: integer
         CommentTypeID:
@@ -1260,9 +1261,9 @@ components:
       description: A user submitted media item related to a specific charge point or site. Currently always an image.
       properties:
         ID:
-          type: string
+          type: integer
         ChargePointID:
-          type: string
+          type: integer
         ItemURL:
           type: string
         ItemThumbnailURL:
@@ -1931,7 +1932,7 @@ components:
               - ID: 148527
                 UUID: 4C524AA1-3413-4D56-804C-480304FEB0FB
                 UserComments:
-                  - ID: string
+                  - ID: 0
                     ChargePointID: 0
                     CommentTypeID: 0
                     CommentType:
@@ -1953,8 +1954,8 @@ components:
                       IsAutomatedCheckin: true
                       IsPositive: true
                 MediaItems:
-                  - ID: string
-                    ChargePointID: string
+                  - ID: 0
+                    ChargePointID: 0
                     ItemURL: string
                     ItemThumbnailURL: string
                     Comment: string
