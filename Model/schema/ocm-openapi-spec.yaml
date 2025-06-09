@@ -156,6 +156,21 @@ paths:
           in: query
           name: polyline
           description: 'Filter results along an encoded polyline, use with distance param to increase search distance along line. Polyline is expanded into a polygon to cover the search distance.'
+        - schema:
+            type: string
+          in: query
+          name: sortby
+          description: 'Default sort order is based on spatial index but you can optionally sort by  `modified_asc` for results in order of modification (oldest to newest), or ` id_asc` for results in order of ID'
+        - schema:
+            type: string
+          in: query
+          name: modifiedsince
+          description: Filter to results modified after the given date
+        - schema:
+            type: string
+          in: query
+          name: greaterthanid
+          description: Filter to items with ID greater than given value
       description: Used to fetch a list of POIs (sites) within a geographic boundary or near a specific latitude/longitude. This is the primary method for most applications and services to consume data from Open Charge Map.
       x-internal: false
     parameters: []
