@@ -169,5 +169,4 @@ BEGIN
 	UPDATE ChargePoint SET AddressInfoID=@AddressInfoID
 	WHERE ID=@ChargePointID
 END
-
 GO

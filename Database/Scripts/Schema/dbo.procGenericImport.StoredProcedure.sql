@@ -230,5 +230,4 @@ DELETE FROM dbo.ChargePoint WHERE AddressInfoID IN(
 DELETE FROM dbo.AddressInfo WHERE Title IS NULL
 
 COMMIT TRANSACTION
-
 GO

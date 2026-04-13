@@ -9,9 +9,8 @@ AS
 BEGIN
 
 INSERT INTO EditQueueItemArchive
-SELECT * from EditQueueItem WHERE DateProcessed<GETUTCDATE()-90
+SELECT * from EditQueueItem WHERE DateProcessed<GETUTCDATE()-90 OR DateSubmitted<GETUTCDATE()-365
 
-DELETE FROM EditQueueItem WHERE ID IN (SELECT ID FROM EditQueueItemArchive)
+DELETE FROM EditQueueItem WHERE EXISTS (SELECT 1 FROM EditQueueItemArchive WHERE ID=EditQueueItem.ID)
 END
-
 GO

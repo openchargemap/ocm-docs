@@ -7,7 +7,7 @@ GO
 CREATE TABLE [dbo].[RegisteredApplication](
 	[ID] [int] IDENTITY(1,1) NOT NULL,
 	[Title] [nvarchar](100) NOT NULL,
-	[WebsiteURL] [nvarchar](500) NOT NULL,
+	[WebsiteURL] [nvarchar](500) NULL,
 	[Description] [nvarchar](max) NULL,
 	[IsEnabled] [bit] NOT NULL,
 	[IsWriteEnabled] [bit] NOT NULL,
@@ -18,20 +18,23 @@ CREATE TABLE [dbo].[RegisteredApplication](
 	[DateAPIKeyLastUsed] [datetime] NULL,
 	[DateCreated] [datetime] NOT NULL,
 	[UserID] [int] NOT NULL,
+	[DateAPIKeyUpdated] [datetime] NULL,
+	[IsPublicListing] [bit] NOT NULL,
  CONSTRAINT [PK_Application] PRIMARY KEY CLUSTERED 
 (
 	[ID] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 100) ON [PRIMARY],
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 100, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY],
  CONSTRAINT [IX_RegisteredApplication_AppID] UNIQUE NONCLUSTERED 
 (
 	[AppID] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
-
 GO
 ALTER TABLE [dbo].[RegisteredApplication] ADD  CONSTRAINT [DF_Application_IsEnabled]  DEFAULT ((0)) FOR [IsEnabled]
 GO
 ALTER TABLE [dbo].[RegisteredApplication] ADD  CONSTRAINT [DF_Application_IsWriteEnabled]  DEFAULT ((0)) FOR [IsWriteEnabled]
+GO
+ALTER TABLE [dbo].[RegisteredApplication] ADD  CONSTRAINT [DF_RegisteredApplication_IsPublicListing]  DEFAULT ((0)) FOR [IsPublicListing]
 GO
 ALTER TABLE [dbo].[RegisteredApplication]  WITH CHECK ADD  CONSTRAINT [FK_RegisteredApplication_User] FOREIGN KEY([UserID])
 REFERENCES [dbo].[User] ([ID])

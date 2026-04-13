@@ -50,5 +50,4 @@ DELETE FROM AddressInfo WHERE NOT EXISTS (SELECT AddressInfoID FROM @UsedAddress
 --procRemoveChargePoints @DataProviderID=1
 --procRemoveChargePoints @OperatorID=4
 --procRemoveChargePoints @OperatorID=1
-
 GO

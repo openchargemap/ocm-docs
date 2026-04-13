@@ -42,5 +42,4 @@ GO
 	WHERE @MaxDistance IS NULL OR (@MaxDistance IS NOT NULL AND (DistanceInKilometers*@ConversionFactor) <=@MaxDistance)
 	ORDER BY 2
 	
-
 GO
